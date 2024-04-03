@@ -1,5 +1,9 @@
 import React from 'react'
-
+import vila from "../Assets/villa-img1.jpg"
+import villa from "../Assets/omkae-image-3.jpg"
+import villla from "../Assets/omkae-image-7.jpg"
+import room1 from "../Assets/omkar-ac-bedroom-1.jpg"
+import room12 from "../Assets/room2.jpg"
 import { FaWifi } from "react-icons/fa";
 
 import { IoFootballOutline } from "react-icons/io5";
@@ -73,7 +77,7 @@ function AccomodationP() {
 
 </div>
     
-    {/* ============================= Navbar ====================== */}
+  
    
     <div className="partnerProgram" id="partner">
       <div className="partnerProgramForm">
@@ -207,14 +211,14 @@ function AccomodationP() {
         className="mySwiper"
       >
         <SwiperSlide>
-           <img src="https://www.d-air-conditioning.co.uk/wp-content/uploads/2020/09/1200x675-d-air3-1.jpg" alt="" />
+           <img src={room1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/340588887.jpg?k=b7a850aeabd8df65b7642263bbdf05197ff8685bb7ca116ce1f796a4d0532fdd&o=&hp=1" alt="" />
+           <img src={room12} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
            <img src="https://i0.wp.com/hotelriverdale.com/wp-content/uploads/2023/02/Premium-Room-2-scaled.jpg?fit=940%2C677&ssl=1" alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       
       </Swiper>
             </Fade>
@@ -329,13 +333,13 @@ function AccomodationP() {
         className="mySwiper"
       >
         <SwiperSlide>
-           <img src="https://images.adsttc.com/media/images/5b10/86ed/f197/ccd7/8200/0177/newsletter/_DSC9332c.jpg?1527809763" alt="" />
+           <img src={vila}alt="" />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="https://images.adsttc.com/media/images/628f/4aa8/abc8/f701/66a2/eb4c/newsletter/villa-in-the-woods-studio-lotus_4.jpg?1653557949" alt="" />
+           <img src={villa} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-           <img src="https://i0.wp.com/hotelriverdale.com/wp-content/uploads/2023/02/Premium-Room-2-scaled.jpg?fit=940%2C677&ssl=1z" alt="" />
+           <img src={villla} alt="" />
         </SwiperSlide>
       
       </Swiper>

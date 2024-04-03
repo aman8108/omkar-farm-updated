@@ -1,6 +1,6 @@
 import React from 'react'
 import chair from "../Assets/eventfood.jpg"
-import chair2 from "../Assets/eventfood.jpg"
+import chair2 from "../Assets/food.jpg"
 import "./weAre.css"
 function WeareSection() {
   return (

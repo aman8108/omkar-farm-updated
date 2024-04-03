@@ -1,4 +1,5 @@
 import React from 'react'
+import weare from "../Assets/omkae-image-6.jpg"
 import { Fade, Slide } from "react-awesome-reveal";
 import WeareSection from '../WeareSection/WeareSection';
 function AbourP() {

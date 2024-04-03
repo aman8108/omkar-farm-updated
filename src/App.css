@@ -50,7 +50,7 @@ section {
   font-weight: 500;
   font-family: var(---OswaldFont);
   text-transform: capitalize;
-  color:#008000 !important;
+  color:#fff!important;
   position: relative;
   padding: 10px 0;
 }
@@ -1130,7 +1130,7 @@ html {
 
 .homeScroll1 {
   background: linear-gradient(to left, rgb(1, 1, 1, 0.5), rgb(1, 1, 1, 0.5)),
-    url(../src/Assets/weAre.jpg) !important;
+    url(../src/Assets/omkae-image-6.jpg) !important;
   background-size: cover !important;
   -moz-background-size: cover !important;
   -webkit-background-size: cover !important;

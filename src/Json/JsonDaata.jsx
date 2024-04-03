@@ -16,14 +16,14 @@
 
 const omkarNature = [
   // ********************************************************************************************
-        {
-            id: 1,
-            title: "A/C Room",
-            category:"room",
-            imageUr1: room1
+        // {
+        //     id: 1,
+        //     title: "A/C Room",
+        //     category:"room",
+        //     imageUr1: room1
             
             
-          },
+        //   },
         {
             id: 2,
             title: "A/C Room",
@@ -33,22 +33,22 @@ const omkarNature = [
             
             
           },
-        {
-            id: 3,
-            title: "A/C Room",
-            category:"room",
-            imageUr1: room1           
+        // {
+        //     id: 3,
+        //     title: "A/C Room",
+        //     category:"room",
+        //     imageUr1: room1           
             
             
-          },
-        {
-            id: 4,
-            title: "A/C Room",
-            category:"room",
-            imageUr1: room1           
+        //   },
+        // {
+        //     id: 4,
+        //     title: "A/C Room",
+        //     category:"room",
+        //     imageUr1: room1           
             
             
-          },
+        //   },
        
           // ******************************************swimming************************************************************
 
@@ -105,7 +105,7 @@ const omkarNature = [
             id:4,
             title: "Events",
             category:"events",
-            imageUr1: room1,
+            imageUr1:event4,
           },
         
 
