@@ -1,0 +1,87 @@
+import React from 'react'
+import './nav.css'
+import omkarLogo from '../Assets/omkar-nature.jpeg'
+import { Link } from 'react-router-dom'
+
+
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+
+function Navebarrr() {
+  return (
+    <>
+  <>
+       <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+         <a href="index.html" className="navbar-brand">
+      <img src={omkarLogo} alt="logo" />
+    </a>
+        <Navbar.Brand href="#home">
+
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">
+
+
+            </Nav.Link>
+            <Nav.Link href="#link" className='nav-item'>
+              <Link to='/'className="nav-link active linkLine"  aria-current="page"> 
+              Home
+                </Link>
+                
+                </Nav.Link>
+            <Nav.Link href="#home" className='nav-item'>
+            <Link to='/about-us' className="nav-link linkLine" href="about.html">
+          
+          about Us
+       
+        </Link>
+            </Nav.Link>
+            <Nav.Link href="#link" className='nav-item'>
+            <Link to='/activitypage' className="nav-link linkLine">
+          Activities
+
+          </Link>
+            </Nav.Link>
+            <Nav.Link href="#home" className='nav-item'>
+            <Link to='/eventpage' className="nav-link linkLine">
+          Event
+
+          </Link>
+            </Nav.Link>
+            <Nav.Link href="#link" className='nav-item'>
+            <Link to='/accomodation' className="nav-link linkLine" >
+          Accommodation
+          </Link>
+            </Nav.Link>
+            <Nav.Link href="#link" className='nav-item'>
+            <Link to='/gallery' className="nav-link linkLine">
+          Gallery
+          </Link>
+            </Nav.Link>
+            <Nav.Link href="#link" className='nav-item'>
+            <Link to='/contect-us' className="nav-link">
+          Contact Us
+          </Link>
+            </Nav.Link>
+         
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+    </>
+
+
+   
+     
+
+    </>
+  )
+}
+
+export default Navebarrr

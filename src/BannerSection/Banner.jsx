@@ -1,0 +1,46 @@
+import React from 'react'
+import './banner.css'
+import { CiStar } from "react-icons/ci";
+
+import { Link } from 'react-router-dom'
+function Banner() {
+  return (
+    <>
+      <div className="homeScroll">
+  <div className="homeSection" id="home">
+    <div className="homeText">
+      <h1>Omkar Nature</h1>
+      <ul>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+      </ul>
+      <p>RURAL RETREAT</p>
+      <div className="d-flex justify-content-center align-item-center mt-5">
+        <div className="buttonnav p-2">
+         
+
+          <Link to='/contect-us' className="programServiceButton"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"> Book Now</Link>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    </>
+  )
+}
+
+export default Banner
