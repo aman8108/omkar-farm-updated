@@ -107,7 +107,7 @@
   
   .navbar-collapse {
     flex-grow: inherit;
-    justify-content: end;
+    justify-content: center;
   }
   
   .navbar-nav {
@@ -384,4 +384,12 @@
 
 .me-auto {
   margin-left: -100px !important;
+}
+
+.navbar-collapse {
+  margin-left: 268px !important;
+}
+
+.navbar .nav-item .nav-link {
+  color: #994b14 !important;
 }

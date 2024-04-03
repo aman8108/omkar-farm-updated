@@ -215,3 +215,17 @@
     }
   }
   
+
+  @media (max-width: 651px){
+      overflow: hidden;
+      height: 341px !important;
+      width: 100%;
+  }}
+@media (min-width:446px){
+  .homeSection {
+    overflow: hidden;
+    height: 341px;
+    width: 100%;
+}
+
+}

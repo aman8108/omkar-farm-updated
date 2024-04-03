@@ -92,7 +92,7 @@ function WeareSection() {
             <span className="mb-2 fw-medium text-secondary ff-sub text-uppercase ls-1 d-block">
               Welcome to
             </span>
-            <h2 className=" ff-heading">Omklar Farm</h2>
+            <h2 className=" ff-heading">Omkar Farm</h2>
             <p className="mb-6">
 
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum laborum alias saepe deserunt perferendis et exercitationem nisi omnis vero numquam? Vero repellat reiciendis sapiente fugit neque omnis laborum iste expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam earum error? Neque impedit atque perspiciatis ratione asperiores architecto dolorum reprehenderit illum consectetur odio ex culpa iure, dicta rem nam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod cum, excepturi saepe unde consectetur laborum voluptates sapiente eligendi totam voluptatibus corporis, et laudantium quaerat deleniti. Architecto repellat aspernatur delectus accusamus.
