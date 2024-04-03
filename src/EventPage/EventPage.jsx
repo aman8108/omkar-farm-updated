@@ -42,7 +42,8 @@ function EventPage() {
               <div className="titleSection">
                 <h2>Birthday</h2>
                 <div className="birthdaydetail">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro ea et  
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro </p>  
                 </div>
               </div>
             </div>
@@ -53,7 +54,7 @@ function EventPage() {
               <div className="titleSection">
                 <h2>Pre-wedding Shoot</h2>
                 <div className="birthdaydetail">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio 
+                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio </p>
                 </div>
               </div>
             </div>
@@ -78,7 +79,8 @@ function EventPage() {
               <div className="titleSection">
                 <h2>Anniversary Celebration</h2>
                 <div className="birthdaydetail">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro ea et 
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro </p>ea et 
                 </div>
               </div>
             </div>
@@ -89,7 +91,9 @@ function EventPage() {
               <div className="titleSection">
                 <h2>Get-Together</h2>
                 <div className="birthdaydetail">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus 
+                 <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus 
+                 </p>
                 </div>
               </div>
             </div>
