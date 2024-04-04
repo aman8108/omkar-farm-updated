@@ -354,9 +354,7 @@ function AccomodationP() {
       </div>
      
     </section>
-    <section>
     <Amenities/>
-    </section>
     <section id="package">
       <div className="container">
         <div className="row">

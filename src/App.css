@@ -1085,7 +1085,7 @@ html {
   background: linear-gradient(to left, rgb(255, 255, 255, 0.4), rgb(255, 255, 255, 0.3)), url();
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    /* height: 200px; */
     background-position: center top;
     background-attachment: fixed;
   

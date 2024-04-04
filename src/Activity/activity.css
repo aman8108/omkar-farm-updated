@@ -91,7 +91,7 @@
       height: 200px;
       background-position: center top;
       background-attachment: fixed; */
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .activityCard {
