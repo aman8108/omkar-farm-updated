@@ -19,15 +19,21 @@ function GalleryP() {
 
   return (
     <>
-    <div className="container">
-
-      <div className="homeScroll4">
+     
+    
+       <div className="homeScroll4">
         <div className="homeSection" id="home">
           <div className="homeText">
             <h1 style={{ color: "#fff" }}>Gallery</h1>
           </div>
         </div>
       </div>
+    
+     
+  
+    <div className="container">
+
+
 
       <section className="myGallery">
         <div className="titleSection">

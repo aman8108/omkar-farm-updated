@@ -34,7 +34,10 @@ section {
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  
 }
+
+
 
 .titleSection {
   display: flex;
@@ -1143,11 +1146,7 @@ html {
 }
 
 .aboutus {
-  background: linear-gradient(
-      to left,
-      rgb(255, 255, 255, 0.3),
-      rgb(255, 255, 255, 0.8)
-    ),
+  background:
     url(https://content3.jdmagicbox.com/comp/shimoga/z9/9999p8182.8182.220211205246.c3z9/catalogue/forest-edge-resort-mandagadde-shimoga-resorts-83ak0xmbzk.jpg);
   background-size: cover;
   -moz-background-size: cover;
@@ -2345,8 +2344,9 @@ border-radius: 15px;
 
 .contact .php-email-form {
   width: 100%;
-  min-height: 544px;
+  min-height: 500px !important;
   padding: 22px;
+  border: 1px solid #008000;
 }
 
 .contact .php-email-form .form-group {

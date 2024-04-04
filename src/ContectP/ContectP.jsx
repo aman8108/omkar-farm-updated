@@ -3,6 +3,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { IoMdCall } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
 import { Fade } from 'react-awesome-reveal';
+import ContectBanner from '../ContectBanner/ContectBanner';
 
 
 
@@ -13,11 +14,12 @@ function ContectP() {
    })
   return (
     <>
-      <>
-  
+     
+  <ContectBanner/>
 
   {/* ======================================= contact Us ================================== */}
   <section id="contact" className="contact">
+    
     <div className="titleSection aos-init aos-animate" data-aos="fade-right">
       <Fade direction='right'>
       <h1>CONTACT US</h1>
@@ -163,7 +165,7 @@ function ContectP() {
   {/* Google tag (gtag.js) */}
 </>
 
-    </>
+  
   )
 }
 

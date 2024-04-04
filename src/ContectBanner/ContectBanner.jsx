@@ -1,15 +1,14 @@
 import React from 'react'
-import './banner.css'
 import { CiStar } from "react-icons/ci";
-
 import { Link } from 'react-router-dom'
-function Banner() {
+import "./contectbanner.css"
+function ContectBanner() {
   return (
     <>
-      <div className="homeScroll">
+        <div className="homeSroll">
   <div className="homeSection" id="home">
     <div className="homeText">
-      <h1>Omkar Nature</h1>
+      <h1>Contect Now</h1>
       <ul>
         <li>
           <span className="material-symbols-outlined"><CiStar /></span>
@@ -29,18 +28,17 @@ function Banner() {
         <div className="buttonnav p-2">
          
 
-          <Link to='/contect-us' className="programServiceButton"
+          {/* <Link to='/contect-us' className="programServiceButton"
             data-bs-toggle="modal"
-            data-bs-target="#exampleModal"> Enquiry Now</Link>
+            data-bs-target="#exampleModal"> Enquiry Now</Link> */}
         </div>
       </div>
     </div>
   </div>
 
 </div>
-
     </>
   )
 }
 
-export default Banner
+export default ContectBanner

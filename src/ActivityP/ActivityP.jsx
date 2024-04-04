@@ -115,7 +115,7 @@ function ActivityP() {
             data-bs-toggle="modal"
             data-bs-target="#">
 
-          Book Now
+Enquiry Now
           
           </Link>
          

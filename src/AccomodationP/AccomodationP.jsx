@@ -262,7 +262,7 @@ function AccomodationP() {
                     <Link  to="/contect-us"   className="programServiceButton"
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal">
-                      Book Now
+                       Enquiry Now
                     </Link>
                    
                   </div>
@@ -312,7 +312,7 @@ function AccomodationP() {
                     <Link to="/contect-us"     className="programServiceButton"
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal">
-                                          Book Now
+                                           Enquiry Now
 
                     </Link>
                   </div>
@@ -439,8 +439,8 @@ function AccomodationP() {
               <Link to="/contect-us"  className="programServiceButton"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal">
-                              Book Now
-
+                              
+                              Enquiry Now
               </Link>
              
             </div>

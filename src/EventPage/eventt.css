@@ -1,5 +1,5 @@
 .event-image{
-    width: 610px;
+    max-width: 610px;
     margin-top: 30px;
 }
 .event-image img{
