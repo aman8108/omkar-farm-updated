@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import { CiLocationOn } from "react-icons/ci";
 import { IoMdCall } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
@@ -6,7 +6,11 @@ import { Fade } from 'react-awesome-reveal';
 
 
 
+
 function ContectP() {
+  useLayoutEffect(()=>{
+    window.scrollTo(0,0)
+   })
   return (
     <>
       <>

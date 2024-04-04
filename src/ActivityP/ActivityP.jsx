@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useLayoutEffect } from 'react'
 import { Link } from 'react-router-dom'
 import collagee from "../Assets/Beige Minimalist.png"
 import { Fade } from 'react-awesome-reveal'
 function ActivityP() {
+  useLayoutEffect(()=>{
+   window.scrollTo(0,0)
+  })
   return (
     <>
 

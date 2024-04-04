@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import omkarNature from "../Json/JsonDaata";
+import  { useLayoutEffect } from 'react'
 
 function GalleryP() {
   const [items, setItems] = useState(omkarNature);
+  useLayoutEffect(()=>{
+    window.scrollTo(0,0)
+   })
 
   const filterItems = (category) => {
     if (category === 'All') {

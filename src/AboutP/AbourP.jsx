@@ -1,8 +1,11 @@
-import React from 'react'
-import weare from "../Assets/omkae-image-6.jpg"
+
+import React, { useLayoutEffect } from 'react'
 import { Fade, Slide } from "react-awesome-reveal";
 import WeareSection from '../WeareSection/WeareSection';
 function AbourP() {
+  useLayoutEffect(()=>{
+    window.scrollTo(0,0)
+   })
   return (
     <>
     <div className="homeScroll1">

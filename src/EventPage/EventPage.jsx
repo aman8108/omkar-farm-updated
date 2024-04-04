@@ -3,8 +3,12 @@ import { CiStar } from "react-icons/ci";
 import getTo from '../Assets/getToGet.jpg'
 import annyver from '../Assets/anniversary.jpg'
 import { Fade } from 'react-awesome-reveal';
+import React, { useLayoutEffect } from 'react'
 
 function EventPage() {
+  useLayoutEffect(()=>{
+    window.scrollTo(0,0)
+   })
   return (
     <>
       <div className="homeSc">
@@ -80,7 +84,7 @@ function EventPage() {
                 <h2>Anniversary Celebration</h2>
                 <div className="birthdaydetail">
                   <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro </p>ea et 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro </p> 
                 </div>
               </div>
             </div>
