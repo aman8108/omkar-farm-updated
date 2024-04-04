@@ -392,21 +392,21 @@ function AccomodationP() {
 
             <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Villa's</Accordion.Header>
+        <Accordion.Header>Villa</Accordion.Header>
         <Accordion.Body>
         <ul>
                       <li>
                         <strong>(MONDAY TO THURSDAY)</strong>
                       </li>
                       <li>₹2,000 With Person</li>
-                      <li>₹6000 With All meal plan</li>
+                      {/* <li>₹6000 With All meal plan</li> */}
                     </ul>
                     <ul>
                       <li>
                         <strong>(FRIDAY TO SUNDAY)</strong>
                       </li>
                       <li>₹2,500 Weekend</li>
-                      <li>₹6000 With All Meal Plan</li>
+                      {/* <li>₹6000 With All Meal Plan</li> */}
                     </ul>
         </Accordion.Body>
       </Accordion.Item>
