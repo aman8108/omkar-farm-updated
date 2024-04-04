@@ -70,11 +70,11 @@ function Footer() {
               <Link to="/gallery">Gallery</Link>
               
             </li>
-            <li>
+            {/* <li>
               <i className="fa fa-chevron-right" />{" "}
               <Link to="">Near by Near By Attraction Points</Link>
               <a href="gallery.html"></a>
-            </li>
+            </li> */}
             <li>
               <i className="fa fa-chevron-right" />
               <Link to="/contect-us">Contact Us</Link>

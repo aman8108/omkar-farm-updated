@@ -23,7 +23,7 @@ function ContectBanner() {
           <span className="material-symbols-outlined"><CiStar /></span>
         </li>
       </ul>
-      <p>RURAL RETREAT</p>
+      <p>REACH US</p>
       <div className="d-flex justify-content-center align-item-center mt-5">
         <div className="buttonnav p-2">
          

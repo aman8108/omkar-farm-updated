@@ -71,7 +71,7 @@ function AccomodationP() {
           <span className="material-symbols-outlined"><CiStar /></span>
         </li>
       </ul>
-      <p>RURAL RETREAT</p>
+      <p>RURAL RETREAT </p>
       <div className="d-flex justify-content-center align-item-center mt-5">
         <div className="buttonnav p-2">
         </div>
