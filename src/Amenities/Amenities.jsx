@@ -1,7 +1,12 @@
 import React from 'react'
+import { FaWifi } from "react-icons/fa";
 import "./amenites.css"
+import { IoFootballOutline } from "react-icons/io5";
+import { MdSportsCricket } from "react-icons/md";
 
 import { FaPersonSwimming } from "react-icons/fa6";
+
+import { TbAirConditioning } from "react-icons/tb";
 import { CiWifiOn } from "react-icons/ci";
 import { FaCar } from "react-icons/fa";
 import { MdOutlineRoomService } from "react-icons/md";

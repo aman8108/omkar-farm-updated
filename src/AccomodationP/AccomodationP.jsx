@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from 'react'
+import React from 'react'
 import vila from "../Assets/villa-img1.jpg"
 import villa from "../Assets/omkae-image-3.jpg"
 import villla from "../Assets/omkae-image-7.jpg"
@@ -26,7 +26,6 @@ import  { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -46,9 +45,6 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 
 function AccomodationP() {
-  useLayoutEffect(()=>{
-    window.scrollTo(0,0)
-   })
   return (
     <>
       <div className="homeScrollImage">
@@ -71,7 +67,7 @@ function AccomodationP() {
           <span className="material-symbols-outlined"><CiStar /></span>
         </li>
       </ul>
-      <p>RURAL RETREAT </p>
+      <p>RURAL RETREAT</p>
       <div className="d-flex justify-content-center align-item-center mt-5">
         <div className="buttonnav p-2">
         </div>
@@ -217,9 +213,9 @@ function AccomodationP() {
         <SwiperSlide>
            <img src={room1} alt="" />
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
            <img src={room12} alt="" />
-        </SwiperSlide> */}
+        </SwiperSlide>
         {/* <SwiperSlide>
            <img src="https://i0.wp.com/hotelriverdale.com/wp-content/uploads/2023/02/Premium-Room-2-scaled.jpg?fit=940%2C677&ssl=1" alt="" />
         </SwiperSlide> */}
@@ -262,7 +258,7 @@ function AccomodationP() {
                     <Link  to="/contect-us"   className="programServiceButton"
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal">
-                       Enquiry Now
+                      Book Now
                     </Link>
                    
                   </div>
@@ -312,7 +308,7 @@ function AccomodationP() {
                     <Link to="/contect-us"     className="programServiceButton"
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal">
-                                           Enquiry Now
+                                          Book Now
 
                     </Link>
                   </div>
@@ -354,7 +350,9 @@ function AccomodationP() {
       </div>
      
     </section>
+    <section>
     <Amenities/>
+    </section>
     <section id="package">
       <div className="container">
         <div className="row">
@@ -390,21 +388,21 @@ function AccomodationP() {
 
             <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Villa</Accordion.Header>
+        <Accordion.Header>Villa's</Accordion.Header>
         <Accordion.Body>
         <ul>
                       <li>
                         <strong>(MONDAY TO THURSDAY)</strong>
                       </li>
                       <li>₹2,000 With Person</li>
-                      {/* <li>₹6000 With All meal plan</li> */}
+                      <li>₹6000 With All meal plan</li>
                     </ul>
                     <ul>
                       <li>
                         <strong>(FRIDAY TO SUNDAY)</strong>
                       </li>
                       <li>₹2,500 Weekend</li>
-                      {/* <li>₹6000 With All Meal Plan</li> */}
+                      <li>₹6000 With All Meal Plan</li>
                     </ul>
         </Accordion.Body>
       </Accordion.Item>
@@ -437,8 +435,8 @@ function AccomodationP() {
               <Link to="/contect-us"  className="programServiceButton"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal">
-                              
-                              Enquiry Now
+                              Book Now
+
               </Link>
              
             </div>
