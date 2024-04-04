@@ -1553,7 +1553,7 @@ html {
       rgb(255, 255, 255, 0),
       rgb(255, 255, 255, 0)
     ),
-    url(https://www.artbusiness.com/1open/images/0205116.jpg);
+    url("../src/Assets/eventBigImg.jpg");
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -1579,7 +1579,7 @@ html {
   position: relative;
   overflow: hidden;
   text-align: center;
-  width: 400px;
+  width: 1291px;
 }
 
 .myGallery .grid-item img {
