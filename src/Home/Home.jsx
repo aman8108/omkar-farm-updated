@@ -7,9 +7,12 @@ import Testimonial from '../Testimonial/Testimonial';
 import Youtube from '../Youtube/Youtube';
 import Footer from '../Footer/Footer';
 import Attraction from '../Attraction/Attraction';
-import EventPage from '../EventPage/EventPage';
+import  { useLayoutEffect } from 'react'
 
 function Home() {
+  useLayoutEffect(()=>{
+    window.scrollTo(0,0)
+   })
   return (
     <>
     <Banner/>

@@ -22,7 +22,7 @@
   }
 
   .titleSection p {
-    max-width: 800px;
+    /* max-width: 800px; */
     text-align: center;
     color: #111;
     font-weight: 500;
@@ -48,7 +48,7 @@
 
 .homeSc {
   background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
-    url(../Assets/event-banner1.jpg);
+    url("../Assets/event-banner1.jpg");
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;

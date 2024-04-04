@@ -3,12 +3,8 @@ import { CiStar } from "react-icons/ci";
 import getTo from '../Assets/getToGet.jpg'
 import annyver from '../Assets/anniversary.jpg'
 import { Fade } from 'react-awesome-reveal';
-import React, { useLayoutEffect } from 'react'
 
 function EventPage() {
-  useLayoutEffect(()=>{
-    window.scrollTo(0,0)
-   })
   return (
     <>
       <div className="homeSc">
@@ -35,7 +31,7 @@ function EventPage() {
       <section>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 sm-2-sm-12">
               <Fade direction="left">
                 <div className="event-image">
                   <img src="https://sevencorbett.com/wp-content/uploads/2021/10/resort-for-birthday-celebration-image-4.jpg" alt="" />
@@ -54,7 +50,7 @@ function EventPage() {
           </div>
 
           <div className="row">
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 order-md-1 order-2">
               <div className="titleSection">
                 <h2>Pre-wedding Shoot</h2>
                 <div className="birthdaydetail">
@@ -62,7 +58,7 @@ function EventPage() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 order-md-2 order-1">
               <Fade direction="right">
                 <div className="event-image">
                 <img src={annyver}alt="" />
@@ -72,26 +68,26 @@ function EventPage() {
           </div>
 
           <div className="row">
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 order-md-1 order-22">
               <Fade direction="left">
                 <div className="event-image">
                   <img src="https://cdn.cdnparenting.com/articles/2022/03/12133939/1904891599.webp" alt="" />
                 </div>
               </Fade>
             </div>
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 order-md-2 order-1">
               <div className="titleSection">
                 <h2>Anniversary Celebration</h2>
                 <div className="birthdaydetail">
                   <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro </p> 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro </p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="row">
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 order-md-1 order-2">
               <div className="titleSection">
                 <h2>Get-Together</h2>
                 <div className="birthdaydetail">
@@ -101,9 +97,9 @@ function EventPage() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-12">
+            <div className="col-lg-6 col-sm-12 order-md-2 order-1">
               <Fade direction="right">
-                <div className="event-image">
+                <div className="event-image order-md-2 order-1">
                   <img src={getTo} alt="" />
                 </div>
               </Fade>
