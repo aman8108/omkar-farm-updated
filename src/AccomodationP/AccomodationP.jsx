@@ -213,9 +213,9 @@ function AccomodationP() {
         <SwiperSlide>
            <img src={room1} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
            <img src={room12} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>
            <img src="https://i0.wp.com/hotelriverdale.com/wp-content/uploads/2023/02/Premium-Room-2-scaled.jpg?fit=940%2C677&ssl=1" alt="" />
         </SwiperSlide> */}
@@ -258,7 +258,7 @@ function AccomodationP() {
                     <Link  to="/contect-us"   className="programServiceButton"
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal">
-                      Book Now
+                      Enquiry Now
                     </Link>
                    
                   </div>
@@ -308,7 +308,7 @@ function AccomodationP() {
                     <Link to="/contect-us"     className="programServiceButton"
                       data-bs-toggle="modal"
                       data-bs-target="#exampleModal">
-                                          Book Now
+                                          Enquiry Now
 
                     </Link>
                   </div>
