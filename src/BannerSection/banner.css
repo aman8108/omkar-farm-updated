@@ -1,6 +1,6 @@
 .homeScroll {
     background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
-      url(https://lh3.googleusercontent.com/p/AF1QipOd4AxSFPwek0mxxHuhtn6OKFycuHq5cdN8BuHI=s1360-w1360-h1020);
+      url("../Assets/omkarHomeBanner.jpeg");
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
