@@ -4,6 +4,7 @@
 }
 .event-image img{
     width: 100%;
+    margin-left: 2px !important;
     
 }
 
