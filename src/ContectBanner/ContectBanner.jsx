@@ -8,7 +8,7 @@ function ContectBanner() {
         <div className="homeSroll">
   <div className="homeSection" id="home">
     <div className="homeText">
-      <h1>Contect Now</h1>
+      <h1>Contact Now</h1>
       <ul>
         <li>
           <span className="material-symbols-outlined"><CiStar /></span>

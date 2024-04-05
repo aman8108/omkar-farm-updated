@@ -25,7 +25,7 @@ function Amenities() {
         </div>
         <div className="activityinfo">
           <p>
-            The resort comprises an appointed guest room with modern amenities.
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
           </p>
         </div>
       </div>
@@ -68,7 +68,7 @@ function Amenities() {
         </div>
         <div className="activityinfo">
           <p>
-            We care a lot about our guests &amp; the comfort that suits both of
+            Lorem ipsum dolor sit. &amp; the comfort that suits both of
             us.
           </p>
         </div>

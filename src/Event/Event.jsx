@@ -40,11 +40,7 @@ function Event() {
           </div>
           <div className="facilitesList">
             <p>
-              Whether a birthday party or an anniversary, our location is the
-              ideal place to celebrate and create new memories for every
-              occasion. Our staff ensures that each event seems new and
-              distinctive, and we make a unique experience in a resort that
-              satisfies all your senses.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis omnis labore nam, molestias dolore necessitatibus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, adipisci.
             </p>
             <ul>
               <li>Birthday Decoration </li>

@@ -24,8 +24,7 @@ function Services() {
           <div className="roomText">
             <h2>A/C Room'S</h2>
             <p>
-              Enjoy complete relaxation in our cottage room that features A
-              plush King bed crisp linens..
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias accusamus aut eos?
             </p>
             <div className="d-flex justify-content-center align-item-center">
               <div className="buttonnav p-2">
@@ -88,8 +87,7 @@ function Services() {
           <div className="roomText">
             <h2>Classic Villa</h2>
             <p>
-              Surrounded yourself with comfort and luxury in our superior rooms
-              that...
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aliquid assumenda ratione nisi, quod quam.
             </p>
             <div className="d-flex justify-content-center align-item-center mt-5">
               <div className="buttonnav p-2">

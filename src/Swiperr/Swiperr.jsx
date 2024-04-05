@@ -19,7 +19,7 @@ function Swiperr() {
         </div>
         <div className="activityinfo">
           <p>
-            The resort comprises an appointed guest room with modern amenities.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, et.
           </p>
         </div>
       </div>
@@ -33,7 +33,7 @@ function Swiperr() {
           <h4>AC &amp; WI-FI</h4>
         </div>
         <div className="activityinfo">
-          <p>Enjoy complementary Wi-Fi and AC at all are properties.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@ function Swiperr() {
         </div>
         <div className="activityinfo">
           <p>
-            We care a lot about our guests &amp; the comfort that suits both of
+            Lorem ipsum dolor sit. &amp; Lorem ipsum dolor sit amet consectetur.
             us.
           </p>
         </div>

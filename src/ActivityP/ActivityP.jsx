@@ -42,7 +42,7 @@ function ActivityP() {
           <div className="activityText">
          
               <h3>Swimming pool</h3>
-              <p>Take a refreshing dip in our well-maintained swimming pool</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
               
             </div>
         
@@ -53,8 +53,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>Badminton</h3>
               <p>
-                The Badminton court makes it a great place to relax yet do
-                things actively.
+                Lorem ipsum dolor sit amet, consectetur adipisicing.
               </p>
             </div>
             
@@ -90,8 +89,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>football</h3>
               <p>
-                Eeras was founded to provide a fun, Entertaining, high-quality
-                football holiday for your family, friends and kids.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consequatur voluptates facilis mollitia velit repellat quisqu
               </p>
             </div>
           </div>
@@ -99,8 +97,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>chess and carrom</h3>
               <p>
-                Relaxation is the most part needed in our life. More indoor
-                games like chess and carrom board are available at our Resort.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto consequuntur laborum vero!
               </p>
             </div>
           </div>
