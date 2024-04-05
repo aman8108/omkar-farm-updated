@@ -53,8 +53,7 @@ function Amenities() {
         </div>
         <div className="activityinfo">
           <p>
-            Eeras Resort accommodates a spacious parking area for your
-            convenience.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
       </div>
