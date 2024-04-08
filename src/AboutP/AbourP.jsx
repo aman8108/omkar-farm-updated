@@ -26,8 +26,7 @@ function AbourP() {
         <div className="ourstory" data-aos="fade-left">
           <h3>Our Story</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quod rerum facere. Recusandae doloremque animi tempora magnam iste repellendus non fugit aliquam, delectus minus molestias sapiente at praesentium voluptate vel perspiciatis eius exercitationem expedita consequuntur saepe eum rerum? Enim harum dignissimos nulla sint, minima voluptate!lorem14
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam praesentium aliquid voluptas labore, non nam?
+          Our story is one of embracing nature's bounty, cultivating a haven where serenity meets adventure. From lush landscapes to captivating experiences, we invite guests to embark on a journey of discovery, forging unforgettable memories amidst the beauty of the countryside.
           </p>
         </div>
 
@@ -48,8 +47,14 @@ function AbourP() {
         >
           <h3 style={{ color: "#111" }}>Our Vision</h3>
           <p style={{ color: "#111" }}>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, nostrum. Sunt cumque veritatis fugit doloribus inventore dolores officia voluptatem. Provident aliquid totam saepe explicabo molestias, cupiditate corporis ex, placeat deserunt impedit maxime cum sit fuga, atque et commodi nostrum porro id necessitatibus? Praesentium est eveniet dolor aliquid sequi inventore dolorum exercitationem laborum unde, laboriosam corporis sed, suscipit fuga, quas iste blanditiis necessitatibus! Laboriosam, expedita ullam?
-            associates &amp; communities.
+          At Omkar Nature Farm, our vision is to create a sanctuary where guests can escape the bustle of urban life and reconnect with nature. Through sustainable practices and immersive experiences, we aim to foster a deep appreciation for the environment. Our goal is to provide a tranquil oasis where individuals can rejuvenate their minds, bodies, and spirits. With heartfelt hospitality and a commitment to sustainability, we aspire to inspire harmony between humanity and the natural world.
+
+
+
+
+
+
+
           </p>
         </div>
         </Fade>
@@ -62,7 +67,7 @@ function AbourP() {
         <div className="ourstory">
           <h3>Our Mision</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque adipisci laboriosam odit minima. Illum voluptas vero, beatae corporis odit non asperiores excepturi? Tenetur quidem quod laudantium? Consequuntur corrupti quas, dolore eaque ut nihil voluptatem odit minus quae dolor reiciendis! Odio?
+          Our mission at Omkar Nature Farm is to provide guests with an immersive experience that reconnects them with nature, fosters relaxation, and promotes environmental stewardship through sustainable practices.
           </p>
         </div>
         </Fade>
@@ -72,7 +77,11 @@ function AbourP() {
   </div>
 </section>
 
-<section id="ourTeam" style={{ backgroundColor: "#eee" }}>
+
+{/* Our team Members */}
+
+
+{/* <section id="ourTeam" style={{ backgroundColor: "#eee" }}>
   <div className="titleSection">
     <h2>Our Team</h2>
   </div>
@@ -113,7 +122,7 @@ function AbourP() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 
 

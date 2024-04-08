@@ -25,7 +25,7 @@ function Amenities() {
         </div>
         <div className="activityinfo">
           <p>
-            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+          Enjoy a swim in the refreshing pools at Omkar Farm Nature.
           </p>
         </div>
       </div>
@@ -39,7 +39,7 @@ function Amenities() {
           <h4>AC &amp; WI-FI</h4>
         </div>
         <div className="activityinfo">
-          <p>Enjoy complementary Wi-Fi and AC at all are properties.</p>
+          <p>Enjoy complimentary Wi-Fi and AC amenities across all our properties..</p>
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@ function Amenities() {
         </div>
         <div className="activityinfo">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Complimentary parking available for your convenience at all our properties
           </p>
         </div>
       </div>
@@ -68,7 +68,7 @@ function Amenities() {
         </div>
         <div className="activityinfo">
           <p>
-            Lorem ipsum dolor sit. &amp; the comfort that suits both of
+          Omkar Nature Farm offers prompt &amp; efficient room service for ultimate guest satisfaction
             us.
           </p>
         </div>

@@ -43,7 +43,9 @@ function EventPage() {
                 <h2>Birthday</h2>
                 <div className="birthdaydetail">
                   <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro </p>  
+                    
+Where birthday dreams come true! Our scenic venue offers spacious event spaces, delicious catering, and entertainment options for a memorable celebration. With professional event planning services and affordable rates, we ensure your special day is stress-free and unforgettable. Escape to the countryside and let us create magical memories for you and your guests. Contact us now to book your ultimate birthday experience!
+                  </p>  
                 </div>
               </div>
             </div>
@@ -54,7 +56,13 @@ function EventPage() {
               <div className="titleSection">
                 <h2>Pre-wedding Shoot</h2>
                 <div className="birthdaydetail">
-                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio </p>
+                 <p> Welcome to Omkar Farm House – where we also offer picturesque pre-wedding shooting opportunities! Our stunning venue provides the perfect backdrop for capturing your love story before the big day. With sprawling outdoor areas and charming indoor spaces, we'll help you create timeless memories to cherish forever. Contact us to schedule your pre-wedding shoot and let us make your journey to 'I do' even more magical!
+
+
+
+
+
+</p>
                 </div>
               </div>
             </div>
@@ -80,7 +88,8 @@ function EventPage() {
                 <h2>Anniversary Celebration</h2>
                 <div className="birthdaydetail">
                   <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus aperiam enim similique! Doloremque perferendis quibusdam, porro </p>
+                  We create enchanting moments for anniversary celebrations! Amidst the serene countryside, our venue offers intimate event spaces, gourmet catering, and tailored packages to mark your special milestone. Let us orchestrate a romantic ambiance with scenic views and impeccable service. Whether it's your first or fiftieth anniversary, make it unforgettable at Omkar Nature Farm . Contact us to plan your dream anniversary celebration today
+                   </p>
                 </div>
               </div>
             </div>
@@ -92,7 +101,7 @@ function EventPage() {
                 <h2>Get-Together</h2>
                 <div className="birthdaydetail">
                  <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint ratione excepturi. Asperiores temporibus quisquam assumenda ad, voluptas dicta, rerum ex provident eos mollitia dolores, impedit aliquam! Distinctio dicta reprehenderit iusto! Doloremque, quidem magni rem quaerat minima optio temporibus repudiandae unde molestiae corporis neque a architecto, minus 
+                 Welcome to our picturesque farm, the perfect venue for memorable get-togethers! Gather your loved ones amidst our scenic surroundings and spacious event spaces. Enjoy delicious catering, fun activities, and a relaxed atmosphere that fosters connections and laughter. Whether it's a family reunion, friends' gathering, or corporate retreat, let our farm be the backdrop for your unforgettable get-together. Contact us to plan your next gathering and create cherished memories together! 
                  </p>
                 </div>
               </div>

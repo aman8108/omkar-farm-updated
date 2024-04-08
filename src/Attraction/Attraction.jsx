@@ -22,8 +22,15 @@ function Attraction() {
               <Fade direction='up'>
                 <h3 className='attra'>Kohoj Fort</h3>
               </Fade>
-              <p className='paragraph'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat vero soluta dolores. Repudiandae adipisci corrupti animi pariatur? Nam dolorum accusantium atque maxime quaerat perspiciatis ipsam debitis ab modi eius eligendi iure minima quas vitae obcaecati numquam adipisci, sint aperiam. Unde eaque quia ducimus, perferendis quasi laudantium nam odio dolores maiores? Repellat perspiciatis dolorem, consectetur vero necessitatibus aliquam obcaecati suscipit deleniti delectus expedita atque commodi quibusdam illo?
-                dolores maiores? Repellat perspiciatis dolorem, consectetur vero necessitatibus aliquam obcaecati suscipit deleniti delectus expedita atque commodi quibusdam illo
+              <p className='paragraph'>
+                
+Nestled in the picturesque Sahyadri range, Kohoj Fort stands as a symbol of Maharashtra's rich heritage and natural beauty. Dating back to the 15th century, this historical marvel entices adventurers with its rugged trails and ancient ruins. As trekkers ascend its slopes, they're greeted by panoramic views of lush valleys and distant horizons, offering a serene escape into nature's embrace. The fort's weathered ramparts and crumbling bastions whisper tales of valor and resilience, echoing the struggles of bygone eras. Exploring Kohoj Fort unveils hidden chambers and secret passageways, each revealing a piece of Maharashtra's storied past. More than a historical landmark, Kohoj Fort serves as a reminder of our shared cultural legacy, urging us to preserve and cherish our ancestral treasures. It stands as a testament to the enduring spirit of Maharashtra, beckoning travelers to embark on a journey through time and immerse themselves in the beauty and history of this captivating destination.
+
+
+
+
+
+
               </p>
             </div>
           </div>

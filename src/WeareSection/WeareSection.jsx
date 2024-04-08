@@ -92,10 +92,10 @@ function WeareSection() {
             <span className="mb-2 fw-medium text-secondary ff-sub text-uppercase ls-1 d-block">
               Welcome to
             </span>
-            <h2 className=" ff-heading">Omkar Farm</h2>
+            <h2 className=" ff-heading">Omkar Nature Farm</h2>
             <p className="mb-6">
 
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum laborum alias saepe deserunt perferendis et exercitationem nisi omnis vero numquam? Vero repellat reiciendis sapiente fugit neque omnis laborum iste expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam earum error? Neque impedit atque perspiciatis ratione asperiores architecto dolorum reprehenderit illum consectetur odio ex culpa iure, dicta rem nam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod cum, excepturi saepe unde consectetur laborum voluptates sapiente eligendi totam voluptatibus corporis, et laudantium quaerat deleniti. Architecto repellat aspernatur delectus accusamus.
+            Welcome to Omkar Nature Farm, a sanctuary of natural beauty and rural charm! Tucked away in scenic surroundings, our farm beckons you to escape the hustle and bustle of city life. Whether you seek a peaceful retreat or an exciting adventure, Omkar Nature Farm promises an unforgettable experience for individuals, families, and nature enthusiasts alike. Come, join us in embracing the tranquil rhythms of nature and creating cherished memories that will last a lifetime. Your journey to relaxation, rejuvenation, and connection with the land begins here!
             </p>
             <a role="button" tabIndex={0} href="#!" className="custom-btn "> 
             <a href="/wedding-event-planner-mumbai" style={{ color: "white" }}>

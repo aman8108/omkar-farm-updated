@@ -26,8 +26,8 @@ function Navebarrr() {
               aria-controls="basic-navbar-nav"
               onClick={() => setExpanded(expanded ? false : "expanded")}
             />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto" onClick={handleNavClose}>
+            <Navbar.Collapse id="basic-navbar-nav " className="heeyy">
+              <Nav  onClick={handleNavClose}>
                 <Nav.Link href="#link" className="nav-item">
                   <Link
                     to="/"

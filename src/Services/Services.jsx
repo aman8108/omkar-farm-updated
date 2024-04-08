@@ -1,4 +1,5 @@
-import React from 'react'
+import roomservice from "../Assets/omkar-ac-bedroom-1.jpg"
+import bestservice from "../Assets/bestroom.webp"
 import './service.css'
 import villaimg from '../Assets/villa-img1.jpg'
 import { Link } from 'react-router-dom'
@@ -17,14 +18,14 @@ function Services() {
         <div className="roomCard aos-init aos-animate" data-aos="fade-left">
           <Fade direction='right'>
           <div className="RoomsImage">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipPfqLpCD5e0R_xViZpLqnZUrdivq04hAi3dfNdL=s1360-w1360-h1020" />
+            <img src={roomservice} />
           </div>
           </Fade>
           
           <div className="roomText">
             <h2>A/C Room'S</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias accusamus aut eos?
+            Relax in our stylish AC room, complete with premium comforts and a tranquil ambiance for the perfect getaway.
             </p>
             <div className="d-flex justify-content-center align-item-center">
               <div className="buttonnav p-2">
@@ -47,7 +48,7 @@ function Services() {
           }}
         >
           <div className="RoomsImage">
-            <img src="https://images.hellomagazine.com/horizon/original_aspect_ratio/48f239fd12e7-panelled-bedroom-wall-marks-and-spencer-z.jpg" alt="best resort in palghar" />
+            <img src={bestservice} alt="best resort in palghar" />
           </div>
           <div
             className="roomtext1"
@@ -87,7 +88,7 @@ function Services() {
           <div className="roomText">
             <h2>Classic Villa</h2>
             <p>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio aliquid assumenda ratione nisi, quod quam.
+            Escape to our luxurious villa, boasting expansive living spaces, breathtaking views, and deluxe amenities for an unforgettable retreat.
             </p>
             <div className="d-flex justify-content-center align-item-center mt-5">
               <div className="buttonnav p-2">

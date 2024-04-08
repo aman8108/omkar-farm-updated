@@ -1147,7 +1147,7 @@ html {
 
 .aboutus {
   background:
-    url(https://content3.jdmagicbox.com/comp/shimoga/z9/9999p8182.8182.220211205246.c3z9/catalogue/forest-edge-resort-mandagadde-shimoga-resorts-83ak0xmbzk.jpg);
+    url("../src/Assets/about-mission.avif");
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;

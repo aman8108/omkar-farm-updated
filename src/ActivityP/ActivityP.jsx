@@ -34,7 +34,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>Wifi&amp; Lawn</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nulla rerum fuga magnam iste deserunt.
+              Enjoy complimentary WiFi access along with the expansive greenery of our lush lawn at Omkar Nature Farm. 
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ function ActivityP() {
           <div className="activityText">
          
               <h3>Swimming pool</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <p>Dive into relaxation at our refreshing swimming pool. Book your stay now for the ultimate rejuvenating experience</p>
               
             </div>
         
@@ -53,7 +53,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>Badminton</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing.
+              Enjoy badminton matches in our spacious court.
               </p>
             </div>
             
@@ -81,7 +81,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>Cricket</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maiores esse explicabo dolores blanditiis cupiditate.
+              Experience thrilling cricket matches in our expansive field, where players of all levels can enjoy the excitement of the game.
               </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>football</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consequatur voluptates facilis mollitia velit repellat quisqu
+              Experience thrilling football matches on our expansive field, perfect for sports enthusiasts and fun-filled gatherings.
               </p>
             </div>
           </div>
@@ -97,7 +97,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>chess and carrom</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto consequuntur laborum vero!
+              Indulge in chess and carrom in our cozy indoor lounge area for ultimate relaxation.
               </p>
             </div>
           </div>

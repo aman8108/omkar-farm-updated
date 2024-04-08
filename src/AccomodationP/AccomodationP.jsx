@@ -231,7 +231,7 @@ function AccomodationP() {
               <h3>A/C Room Room</h3>
               <div className="room-content">
                 <p>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quos deserunt saepe, accusantium corporis autem. Facilis labore alias porro illo, incidunt accusantium ipsam voluptate rerum expedita perspiciatis tempora architecto eius eum excepturi? Dolores, ipsam necessitatibus.
+                Relax in our cozy AC rooms, where large windows allow ample natural light and a refreshing breeze. Enjoy modern amenities amidst a serene ambiance, ensuring a comfortable and rejuvenating stay. Whether for leisure or business, our rooms offer the perfect retreat after a day of exploration or work, promising a peaceful haven for all our guests.
                 </p>
                 <div className="roomServices">
                   <ul>
@@ -277,7 +277,14 @@ function AccomodationP() {
               <h3>Villa</h3>
               <div className="room-content">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iste deserunt qui in aperiam amet ratione nemo. Labore minima unde error saepe laborum, deleniti distinctio rem quas hic, consectetur iure?
+                "Indulge in luxury and sophistication in our exquisite villas. Experience opulent living spaces, breathtaking views, and unparalleled comfort. Whether it's a romantic getaway or a family retreat, our villas offer the perfect blend of elegance and relaxation. Reserve your villa now for an unforgettable escape into luxury at our farm house."
+
+
+
+
+
+
+
                 </p>
                 <div className="roomServices">
                   <ul>

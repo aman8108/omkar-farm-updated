@@ -40,7 +40,7 @@ function Event() {
           </div>
           <div className="facilitesList">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis omnis labore nam, molestias dolore necessitatibus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, adipisci.
+            "Host your unforgettable events and celebrations with us! Our venue provides a charming setting, customizable packages, and attentive service to ensure your  get-together , pre-wedding, birthday, or special occasion is nothing short of extraordinary. From exquisite catering to seamless coordination, let us bring your vision to life and create cherished memories that will last a lifetime. Get in touch with us today to start planning your perfect event experience!"
             </p>
             <ul>
               <li>Birthday Decoration </li>
