@@ -51,7 +51,7 @@
 
 .roomsFacility .roomCard .titleSection {
   position: relative;
-  top: 30%;
+  top: 30% !important;
   left: 0;
   text-align: center;
 }
