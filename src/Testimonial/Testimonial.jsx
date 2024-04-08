@@ -247,7 +247,7 @@ export default function Testimonial() {
                  >
                    <div className="card card-overlay-slide text-bg-dark border-0">
                    <p>
-                   The spa experience was heavenly, providing ultimate relaxation and rejuvenation. Skilled therapists and tranquil ambiance ensured a truly indulgent
+                   Omkar Nature Farm offers a serene escape surrounded by nature. Cozy accommodations, sustainable activities, and warm hospitality make it the perfect getaway for nature lovers.
                  <div className="stars">
                   <ul>
                   <li>
