@@ -5,7 +5,7 @@
 .card{
     height: 323px !important;
     width: 340px;
-    margin-left: 40px;
+    margin-left: 4px;
     margin-right: 40px !important;
 }
 
@@ -69,13 +69,22 @@
     bottom: 34px;
  }
 
- @media (max-width:320px){
+ /* @media (max-width:320px){
     .card{
         width: 236px;
         margin-left: 15px;
         margin-top: 11px;
         margin-right: 40px;
     }
+
+ @media (max-width:574px){
+    .card{
+        width: 236px;
+        margin-left: 47px;
+        margin-top: 11px;
+        margin-right: 40px;
+    }
+}
      
       
   }
@@ -95,4 +104,4 @@
     }
       
   }
-
+ */
