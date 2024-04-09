@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import omkarNature from "../Json/JsonDaata";
 import  { useLayoutEffect } from 'react'
+import { Image } from 'antd';
 
 function GalleryP() {
   const [items, setItems] = useState(omkarNature);
@@ -64,8 +65,13 @@ function GalleryP() {
             <div key={index} className="col-12 col-md-6 col-lg-4 col-xl-3 hero" style={{ marginBottom: "20px" }}>
               <div id="containergallery" className="isotope" style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}>
                 <div className="grid-item" data-filter={item.category} data-page={1} style={{ left: 0, top: 0 }}>
-                  <img src={item.imageUr1} alt="" style={{ marginBottom: "10px", maxWidth: "100%", alignSelf: "center" }} />
-                  <div className="overlay">{item.title}</div>
+                
+  <Image
+    
+    src={item.imageUr1} alt="" style={{ marginBottom: "10px", maxWidth: "100%", alignSelf: "center" }} />
+    <div className="overlay">{item.title}</div>
+
+                  
                 </div>
               </div>
             </div>

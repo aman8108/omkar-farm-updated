@@ -3,8 +3,8 @@
 
 }
 .card{
-    height: 380px !important;
-    /* width: 350px; */
+    height: 323px !important;
+    width: 340px;
     margin-left: 40px;
     margin-right: 40px !important;
 }
@@ -28,7 +28,8 @@
     position: absolute;
     padding-bottom: 45px;
     font-family: var(---OswaldFont) !important;
-    margin-left: 35px;
+    margin-left: 74px;
+    margin-top: 46px;
 
     
 

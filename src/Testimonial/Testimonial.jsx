@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 
 
 // import required modules
-import {  Pagination } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import "./review.css"
 import { CiStar } from "react-icons/ci";
 import { Fade } from 'react-awesome-reveal';
@@ -37,10 +37,10 @@ export default function Testimonial() {
           clickable: true,
         }}
 
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           640: {
             slidesPerView: 2 ,
@@ -51,11 +51,11 @@ export default function Testimonial() {
             spaceBetween: 40,
           },
           1024: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 50,
           },
         }}
-        modules={[ Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
@@ -87,7 +87,10 @@ export default function Testimonial() {
                   <span className="material-symbols-outlined"><CiStar /></span>
                   </li>
               </ul> 
-            <h2 className='review'>Karan patil</h2>
+              <div className="review">
+
+            <h2>Karan patil</h2>
+              </div>
                    </div>
                       </p>
                       <div className="testimonialName">
@@ -125,7 +128,10 @@ export default function Testimonial() {
                   <span className="material-symbols-outlined"><CiStar /></span>
                   </li>
               </ul> 
-            <h2 className='review'>Viraj Raut</h2>
+              <div className="review">
+
+            <h2>Viraj Raut</h2>
+              </div>
                    </div>
                      </p>
                      <div className="testimonialName">
@@ -135,76 +141,7 @@ export default function Testimonial() {
                   </div>
                 </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
-        <div
-                  className="swiper-slide swiper-slide-next"
-                  
-                  data-swiper-slide-index={0}
-                >
-                  <div
-                    className="mb-5 tns-item tns-slide-active"
-                    id="tns1-item0"
-                  >
-                    <div className="card card-overlay-slide text-bg-dark border-0">
-                      <p>
-                      Enchanting ambience, cozy rooms, refreshing pool, exceptional hospitality, especially from Manager Bhavesh. Highly recommended for families and large groups.
-                      <div className="stars">
-                   <ul>
-                   <li>
-                    <span className="material-symbols-outlined"><CiStar /></span>
-                     </li>
-                    <li>
-                    <span className="material-symbols-outlined"><CiStar /></span>
-                  </li>
-                  <li>
-                  <span className="material-symbols-outlined"><CiStar /></span>
-                  </li>
-                  <li>
-                  <span className="material-symbols-outlined"><CiStar /></span>
-                  </li>
-              </ul> 
-            <h2 className='review'>hari raut</h2>
-                   </div>
-                      </p>
-                      <div className="testimonialName">
-          </div>
-                    </div>
-                  </div>
-                </div>
-        </SwiperSlide> */}
-        {/* <SwiperSlide>
-          <div>
-                 <div
-                   className="mb-5 tns-item tns-slide-active"
-                   id="tns1-item0"
-                 >
-                   <div className="card card-overlay-slide text-bg-dark border-0">
-                   <p>
-                   An idyllic setting for bonding with loved ones, particularly favored for visits during the rainy season.
-                   <div className="stars">
-                  <ul>
-                  <li>
-                   <span className="material-symbols-outlined"><CiStar /></span>
-                    </li>
-                   <li>
-                   <span className="material-symbols-outlined"><CiStar /></span>
-                 </li>
-                 <li>
-                 <span className="material-symbols-outlined"><CiStar /></span>
-                 </li>
-                 <li>
-                 <span className="material-symbols-outlined"><CiStar /></span>
-                 </li>
-             </ul> 
-           <h2 className='review'>AMIT Patel</h2>
-                  </div>
-                   </p>
-                   <div className="testimonialName">
-         </div>
-                   </div>
-                 </div>
-               </div>
-        </SwiperSlide> */}
+       
         <SwiperSlide>
         <div>
                  
@@ -230,7 +167,10 @@ export default function Testimonial() {
                  <span className="material-symbols-outlined"><CiStar /></span>
                  </li>
              </ul> 
-           <h2 className='review'>Shivam rane</h2>
+             <div className="review">
+
+           <h2>Shivam rane</h2>
+              </div>
                   </div>
                    </p>
                    <div className="testimonialName">
@@ -247,7 +187,8 @@ export default function Testimonial() {
                  >
                    <div className="card card-overlay-slide text-bg-dark border-0">
                    <p>
-                   Omkar Nature Farm offers a serene escape surrounded by nature. Cozy accommodations, sustainable activities, and warm hospitality make it the perfect getaway for nature lovers.
+                   
+Tranquil retreat with cozy accommodations and refreshing ambiance
                  <div className="stars">
                   <ul>
                   <li>
@@ -263,7 +204,10 @@ export default function Testimonial() {
                  <span className="material-symbols-outlined"><CiStar /></span>
                  </li>
              </ul> 
-           <h2 className='review'>shiv sakpal</h2>
+             <div className="review">
+
+           <h2>shiv sakpal</h2>
+              </div>
                   </div>
                    </p>
                    <div className="testimonialName">
