@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 
 
 // import required modules
-import {  Pagination, Navigation } from 'swiper/modules';
+import {Autoplay,  Pagination, Navigation } from 'swiper/modules';
 import "./review.css"
 import { CiStar } from "react-icons/ci";
 import { Fade } from 'react-awesome-reveal';
@@ -37,10 +37,10 @@ export default function Testimonial() {
           clickable: true,
         }}
 
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           640: {
             slidesPerView: 2 ,
@@ -55,7 +55,7 @@ export default function Testimonial() {
             spaceBetween: 50,
           },
         }}
-        modules={[ Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
