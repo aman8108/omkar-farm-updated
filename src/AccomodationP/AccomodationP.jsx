@@ -237,7 +237,7 @@ function AccomodationP() {
                   <ul>
                     <li>
                       <span className="material-symbols-outlined"> <FaWifi /> </span>
-                      <p>WIFI</p>
+                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
                     </li>
                     <li>
                       <span className="material-symbols-outlined"><IoFootballOutline /></span>
@@ -278,13 +278,6 @@ function AccomodationP() {
               <div className="room-content">
                 <p>
                 "Indulge in luxury and sophistication in our exquisite villas. Experience opulent living spaces, breathtaking views, and unparalleled comfort. Whether it's a romantic getaway or a family retreat, our villas offer the perfect blend of elegance and relaxation. Reserve your villa now for an unforgettable escape into luxury at our farm house."
-
-
-
-
-
-
-
                 </p>
                 <div className="roomServices">
                   <ul>
