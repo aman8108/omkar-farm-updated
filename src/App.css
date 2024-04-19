@@ -51,9 +51,11 @@ section {
 .titleSection h1 {
   font-size: 2.4rem;
   font-weight: 500;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   text-transform: capitalize;
-  color:#fff!important;
+  color:#008000!important;
   position: relative;
   padding: 10px 0;
 }
@@ -61,7 +63,9 @@ section {
 .titleSection h2 {
   font-size: 2.4rem;
   font-weight: 500;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   text-transform: capitalize;
   color: var(---primeColor);
   position: relative;
@@ -95,6 +99,7 @@ section {
   border-radius: 100px;
 }
 
+
 @media (max-width: 990px) {
   section {
     padding: 20px 0 30px 0;
@@ -112,7 +117,9 @@ section {
   .titleSection h2 {
     font-size: 2rem;
     font-weight: 500;
-    font-family: var(---robotFont);
+     font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
     text-transform: capitalize;
     color:#008000;
     position: relative;
@@ -148,7 +155,9 @@ section {
   .titleSection h2 {
     font-size: 2rem;
     font-weight: 500;
-    font-family: var(---robotFont);
+     font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
     text-transform: capitalize;
     color: var(---primeColor);
     position: relative;
@@ -186,7 +195,7 @@ section {
   color: var(---primeColor);
   padding: 0 5px;
   font-size: 1.2rem;
-  font-family: var(---opensansFont);
+  /* font-family: var(---opensansFont); */
   font-weight: 500;
 }
 
@@ -197,7 +206,9 @@ html {
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: var(---robotFont);
+   font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: gray;
 }
 
@@ -263,7 +274,8 @@ html {
 .navbar .nav-item .nav-link {
   font-size: 1.2rem;
   color: var(---primeColor);
-  font-family: var(---OswaldFont);
+
+  font-weight: 400;
   font-weight: 500;
   transition: 0.4s ease-in-out;
   text-transform: capitalize;
@@ -575,7 +587,7 @@ html {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: 0px -88px !important;
   overflow: hidden;
 }
 
@@ -593,7 +605,9 @@ html {
 .homeSection h1 {
   text-align: center;
   font-size: 5rem;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 500;
   color: #fff;
   margin: 0;
@@ -623,8 +637,9 @@ html {
   .homeSection h1 {
     text-align: center;
     font-size: 2.6rem;
-    font-family: var(---OswaldFont);
-    font-weight: 500;
+      font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
     color: #fff;
     margin: 0;
     animation: mymove 2s;
@@ -814,7 +829,9 @@ html {
 .roomsFacility .roomCard .roomText h2 {
   text-align: center;
   color: #111;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   padding: 10px;
   font-weight: 700;
 }
@@ -829,7 +846,9 @@ html {
 .roomsFacility .roomCard .roomText p {
   text-align: center;
   color: #111;
-  font-family: var(---robotFont);
+   font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   padding: 10px;
 }
 
@@ -871,7 +890,9 @@ html {
 .facilitiesText h2 {
   font-size: 1.8rem;
   color: var(---primeColor);
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 500;
   text-transform: capitalize;
   margin: 0;
@@ -959,7 +980,9 @@ html {
   font-weight: 500;
   color: var(---secondColor);
   font-size: 1.4rem;
-  font-family: var(---robotFont);
+   font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .facilitySection .attractionBody p {
@@ -1048,7 +1071,9 @@ html {
   padding: 10px 15px;
   background-color: rgb(17, 17, 17, 0.7);
   margin: 0;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   text-align: center;
   transition: 0.5s ease-in-out;
   color: #fff;
@@ -1138,8 +1163,9 @@ html {
   -moz-background-size: cover !important;
   -webkit-background-size: cover !important;
   -o-background-size: cover !important;
-  background-repeat: no-repeat !important;
-  background-position: center bottom !important;
+  /* background-repeat: no-repeat !important; */
+  
+  background-position: 0px -88px !important;
   background-attachment: scroll !important;
   overflow: hidden !important;
   
@@ -1170,7 +1196,9 @@ html {
 .aboutus .ourstory h3 {
   font-size: 1.8rem;
   color:#008000 !important;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 500;
   text-transform: capitalize;
   margin: 20px 0;
@@ -1178,7 +1206,7 @@ html {
 
 .aboutus .ourstory P {
   color: #fff;
-  font-family: var(---robotFont);
+  font-weight: 400;
   padding: 10px 0;
   text-align: justify;
 }
@@ -1209,7 +1237,9 @@ html {
 #ourTeam .teamName h3 {
   font-size: 1.8rem;
   color: var(---primeColor);
-  font-family: var(---robotFont);
+   font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 500;
   text-transform: capitalize;
   margin: 20px 0;
@@ -1218,7 +1248,7 @@ html {
 
 #ourTeam .teamName p {
   color: #aaaa;
-  font-family: var(---robotFont);
+  font-weight: 400;
   text-align: center;
   font-weight: 500;
 }
@@ -1226,7 +1256,9 @@ html {
 .aboutus .ourstory h3 {
   font-size: 1.8rem;
   color: #d6a058;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 500;
   text-transform: capitalize;
   margin: 20px 0;
@@ -1236,7 +1268,9 @@ html {
   .aboutus .ourstory h3 {
     font-size: 1.6rem;
     color: #d6a058;
-    font-family: var(---OswaldFont);
+      font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
     font-weight: 500;
     text-transform: capitalize;
     margin: 10px 0;
@@ -1256,7 +1290,9 @@ html {
   #ourTeam .teamName h3 {
     font-size: 1.6rem;
     color: var(---primeColor);
-    font-family: var(---robotFont);
+     font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
     font-weight: 500;
     text-transform: capitalize;
     margin: 10px 0 0;
@@ -1285,7 +1321,9 @@ html {
 #activity .activityText h3 {
   font-size: 1.6rem;
   color: #008000;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 500;
   text-transform: capitalize;
   text-align: center;
@@ -1293,7 +1331,8 @@ html {
 
 #activity .activityText p {
   color: #111;
-  font-family: var(---robotFont);
+
+  font-weight: 400;
   text-align: center;
   margin: 0.6rem;
 }
@@ -1357,7 +1396,9 @@ html {
 #room h3 {
   font-size: 1.6rem;
   color: #008000;
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   font-weight: 900;
   text-transform: capitalize;
   text-align: left;
@@ -1365,7 +1406,7 @@ html {
 
 #room p {
   color: #111;
-  font-family: var(---robotFont);
+  font-weight: 400;
   text-align: justify;
   font-size: 1.2rem;
   margin: 10px 0;
@@ -1392,7 +1433,8 @@ html {
 #room .roomServices ul p {
   color: #111;
   text-align: center;
-  font-family: var(---OswaldFont);
+  
+  font-weight: 400;
   font-size: 0.9rem;
 }
 
@@ -1455,7 +1497,9 @@ html {
 #package h3 {
   font-size: 1.6rem;
   color: var(---secondColor);
-  font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   text-transform: capitalize;
   font-weight: 500;
   text-align: left;
@@ -1464,7 +1508,7 @@ html {
 #package .rules li {
   color: #eee;
   font-size: 1rem;
-  font-family: var(---OswaldFont);
+  font-weight: 400;
 }
 
 #package .accordion .accordion-item {
@@ -1540,7 +1584,9 @@ html {
   #package .rules li {
     color: #eee;
     font-size: 1rem;
-    font-family: var(---OswaldFont);
+      font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
   }
 }
 
@@ -2259,7 +2305,7 @@ border-radius: 15px;
 
 #contact {
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: -46px;
 }
 
 #contact .titleSection h3 {
@@ -2347,6 +2393,7 @@ border-radius: 15px;
   min-height: 500px !important;
   padding: 22px;
   border: 1px solid #008000;
+  margin-bottom: 55px;
 }
 
 .contact .php-email-form .form-group {
@@ -2480,6 +2527,7 @@ border-radius: 15px;
 
 #footer .footer-top .footer-contact img {
   width: 20vh;
+  margin-bottom: 15px;
 }
 
 #footer .footer-top .footer-contact p {

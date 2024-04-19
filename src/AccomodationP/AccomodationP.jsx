@@ -47,7 +47,23 @@ import { Fade, Slide } from "react-awesome-reveal";
 function AccomodationP() {
   return (
     <>
-      <div className="homeScrollImage">
+
+<Swiper
+ spaceBetween={30}
+ centeredSlides={true}
+ autoplay={{
+   delay: 2500,
+   disableOnInteraction: false,
+ }}
+ pagination={{
+   clickable: true,
+ }}
+ navigation={true}
+ modules={[Autoplay, Pagination, Navigation]}
+ className="mySwiper"
+   >
+        <SwiperSlide>
+          <div className="homeScrollImage-one">
   <div className="homeSection" id="home">
     <div className="homeText">
     <div className="titleSection">
@@ -76,6 +92,101 @@ function AccomodationP() {
   </div>
 
 </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="homeScrollImage-two">
+  <div className="homeSection" id="home">
+    <div className="homeText">
+    <div className="titleSection">
+        <h1>Accommodation</h1>
+      </div>
+      <ul>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+      </ul>
+      <p>RURAL RETREAT</p>
+      <div className="d-flex justify-content-center align-item-center mt-5">
+        <div className="buttonnav p-2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="homeScrollImage-three">
+  <div className="homeSection" id="home">
+    <div className="homeText">
+    <div className="titleSection">
+        <h1>Accommodation</h1>
+      </div>
+      <ul>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+      </ul>
+      <p>RURAL RETREAT</p>
+      <div className="d-flex justify-content-center align-item-center mt-5">
+        <div className="buttonnav p-2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+        </SwiperSlide>
+       
+      </Swiper>
+    
+      {/* <div className="homeScrollImage">
+  <div className="homeSection" id="home">
+    <div className="homeText">
+    <div className="titleSection">
+        <h1>Accommodation</h1>
+      </div>
+      <ul>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined"><CiStar /></span>
+        </li>
+      </ul>
+      <p>RURAL RETREAT</p>
+      <div className="d-flex justify-content-center align-item-center mt-5">
+        <div className="buttonnav p-2">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div> */}
     
   
    

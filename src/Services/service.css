@@ -36,7 +36,7 @@
   background-color: transparent;
   background-image: linear-gradient(
     to left,
-    rgba(255, 255, 255, 0.3) 30%,
+    rgba(255, 255, 255, 0.3) -201%,
     #ffffff 100%
   );
 }
@@ -44,7 +44,8 @@
 .roomsFacility .roomCard .roomText h2 {
   text-align: center;
   color:#008000;
-  font-family: var(---OswaldFont);
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
   padding: 10px;
   font-weight: 700;
 }

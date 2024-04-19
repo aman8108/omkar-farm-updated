@@ -118,14 +118,36 @@
 }
 
  /* aaaaaaaaaaaaaaaaa-------banner css -----aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
- .homeScrollImage {
+ .homeScrollImage-one {
+  background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
+    url(../Assets/omkae-image-3.jpg);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: 0px -623px !important;
+  overflow: hidden;
+}
+ .homeScrollImage-two {
+  background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
+    url("../Assets/eventchild.jpg");
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: 0px -88px;
+  overflow: hidden;
+}
+ .homeScrollImage-three {
   background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
     url(https://lh3.googleusercontent.com/p/AF1QipOaulQZmzeVLfrmI3eSdBNHwtcvEP1N9snrB4Zl=s1360-w1360-h1020);
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-repeat: no-repeat;
+  background-position: 0px -88px;
   background-position: center top;
   overflow: hidden;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import './event.css'
 import eventbig from "../Assets/eventBigImg.jpg"
 import eventgetTo from "../Assets/eventGet.jpg"
-import annyver from '../Assets/anniversary.jpg'
+import birthday from '../Assets/weAre.jpg'
 import { Fade, Slide } from "react-awesome-reveal";
 function Event() {
   return (
@@ -57,7 +57,7 @@ function Event() {
       <div className="attrectionCard">
         <div className="attrectionImg">
         <img
-            src="https://imgs.search.brave.com/EwyjB2hZ-gMVTElXUFpoc7nPJi-TpWyPn-c5GhhyFoU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2VmLzEw/LzJmL2VmMTAyZjcy/NzVkZTA5ZGZlMzdl/YzBkODc2YWIwYmE1/LmpwZw"
+            src={birthday}
           />
          
           <h3 className='eventh3'>Birthday Decoration</h3>

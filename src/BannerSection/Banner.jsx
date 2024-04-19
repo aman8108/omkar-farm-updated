@@ -9,7 +9,7 @@ function Banner() {
       <div className="homeScroll">
   <div className="homeSection" id="home">
     <div className="homeText">
-      <h1>Omkar Nature</h1>
+      <h1>Omkar Nature Farm</h1>
       <ul>
         <li>
           <span className="material-symbols-outlined"><CiStar /></span>

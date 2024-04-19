@@ -1,5 +1,5 @@
 .testii{
-    font-family: var(---OswaldFont) !important;
+    /* font-family: var(---OswaldFont) !important; */
 
 }
 .card{
@@ -27,7 +27,7 @@
     padding-bottom: 300px !important;
     position: absolute;
     padding-bottom: 45px;
-    font-family: var(---OswaldFont) !important;
+    /* font-family: var(---OswaldFont) !important; */
     margin-left: 74px;
     margin-top: 46px;
 

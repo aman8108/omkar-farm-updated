@@ -24,7 +24,7 @@ export default function Testimonial() {
 <div className="container">
         <div class="titleSection">
           <Fade direction='right'>
-          <h2 class="text-center">Clients Say</h2>
+          <h2 class="text-center">Happy Guest</h2>
           </Fade>
             
         </div>

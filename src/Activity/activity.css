@@ -5,7 +5,7 @@
   .activity .fisrtImage {
     
     position: relative;
-    background: url(../Assets/omkae-image-1.jpg);
+    background: url(../Assets/nightpool.jpg);
     background-size: 110% 110%;
     -moz-background-size: 110% 110%;
     -webkit-background-size: 110% 110%;
@@ -39,7 +39,7 @@
     padding: 10px 15px;
     background-color: rgb(17, 17, 17, 0.7);
     margin: 0;
-    font-family: var(---OswaldFont);
+    /* font-family: var(---OswaldFont); */
     text-align: center;
     transition: 0.5s ease-in-out;
     color: #fff;
@@ -61,8 +61,8 @@
 
   .titleSection h2 {
     font-size: 2.4rem;
-    font-weight: 500;
-    font-family: var(---OswaldFont);
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
     text-transform: capitalize;
     color: var(---primeColor);
     position: relative;
