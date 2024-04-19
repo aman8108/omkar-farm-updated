@@ -125,7 +125,7 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-position: 0px -623px !important;
   overflow: hidden;
 }
@@ -136,7 +136,7 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-position: 0px -88px;
   overflow: hidden;
 }
@@ -147,7 +147,7 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-position: 0px -88px;
+  /* background-position: 0px -88px; */
   background-position: center top;
   overflow: hidden;
 }
@@ -164,7 +164,7 @@
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  /* background-position: center top; */
   overflow: hidden;
 }
 
@@ -347,7 +347,51 @@
     font-size: 0.8rem;
     font-family: var(---popinsFont);
     font-weight: 500;
+   
   }
+}
+
+@media (max-width: 500px) {
+  
+  .homeScrollImage-two {
+    /* background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)), url(http://localhost:3001/static/media/eventchild.043dccc….jpg); */
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset;
+    overflow: hidden;
+}
+  }
+@media (max-width: 500px) {
+  
+  .homeScrollImage-one {
+    /* background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)), url(http://localhost:3001/static/media/omkae-image-3.23ef97e….jpg); */
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset !important;
+    overflow: hidden;
+   
+  }}
+@media (max-width: 1440px) {
+  
+  .homeScrollImage-two {
+    /* background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)), url(http://localhost:3001/static/media/eventchild.043dccc….jpg); */
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: unset;
+    background-position: unset;
+    overflow: hidden;
+}
+
+
+
   .serviceSection::after {
     display: none;
   }

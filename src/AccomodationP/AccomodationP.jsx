@@ -51,15 +51,15 @@ function AccomodationP() {
 <Swiper
  spaceBetween={30}
  centeredSlides={true}
+//  pagination={{
+//    clickable: true,
+//  }}
  autoplay={{
-   delay: 2500,
-   disableOnInteraction: false,
- }}
- pagination={{
-   clickable: true,
- }}
+  delay: 2500,
+  disableOnInteraction: false,
+}}
  navigation={true}
- modules={[Autoplay, Pagination, Navigation]}
+ modules={[Autoplay, Navigation]}
  className="mySwiper"
    >
         <SwiperSlide>
@@ -348,7 +348,7 @@ function AccomodationP() {
                   <ul>
                     <li>
                       <span className="material-symbols-outlined"> <FaWifi /> </span>
-                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                      <p>Wifi</p>
                     </li>
                     <li>
                       <span className="material-symbols-outlined"><IoFootballOutline /></span>
