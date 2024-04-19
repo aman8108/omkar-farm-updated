@@ -118,17 +118,33 @@
 }
 
  /* aaaaaaaaaaaaaaaaa-------banner css -----aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
- .homeScrollImage-one {
-  background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
+ @media (min-width: 701px) {
+  
+  .homeScrollImage-one {
+    background-size: cover;
+    background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
     url(../Assets/omkae-image-3.jpg);
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -623px !important;
-  overflow: hidden;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: center;
+    /* background-repeat: no-repeat; */
+    background-position: 0px -632px !important;
+    overflow: hidden;
+}}
+@media (max-width: 700px) {
+  .homeScrollImage-one {
+    background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
+      url(../Assets/omkae-image-3.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: center;
+    background-repeat: no-repeat;
+    /* background-position: 0px -623px !important; */
+    overflow: hidden;
+  }
 }
+
  .homeScrollImage-two {
   background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)),
     url("../Assets/eventchild.jpg");
@@ -351,6 +367,16 @@
   }
 }
 
+/* @media (max-width: 500px) {
+  
+  .homeScrollImage-one {
+   
+    background-position: 0px -201px !important;
+   
+}
+  } */
+
+
 @media (max-width: 500px) {
   
   .homeScrollImage-two {
@@ -364,19 +390,7 @@
     overflow: hidden;
 }
   }
-@media (max-width: 500px) {
-  
-  .homeScrollImage-one {
-    /* background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)), url(http://localhost:3001/static/media/omkae-image-3.23ef97e….jpg); */
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: unset !important;
-    overflow: hidden;
-   
-  }}
+
 @media (max-width: 1440px) {
   
   .homeScrollImage-two {
@@ -389,6 +403,7 @@
     background-position: unset;
     overflow: hidden;
 }
+
 
 
 

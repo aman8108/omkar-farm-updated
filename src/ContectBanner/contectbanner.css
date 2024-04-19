@@ -5,7 +5,7 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-position: 0px -335px;
     object-fit: cover;
     
@@ -232,4 +232,18 @@
     width: 100%;
 }
 
+}
+
+
+
+  .homeSroll {
+    /* background: linear-gradient(to left, rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.4)), url(http://localhost:3001/static/media/gallery-img.99daba7….jpg); */
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    object-fit: cover;
+    overflow: hidden;
 }

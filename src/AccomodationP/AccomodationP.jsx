@@ -54,12 +54,12 @@ function AccomodationP() {
 //  pagination={{
 //    clickable: true,
 //  }}
- autoplay={{
-  delay: 2500,
-  disableOnInteraction: false,
-}}
- navigation={true}
- modules={[Autoplay, Navigation]}
+//  autoplay={{
+//   delay: 2500,
+//   disableOnInteraction: false,
+// }}
+//  navigation={true}
+//  modules={[, Navigation]}
  className="mySwiper"
    >
         <SwiperSlide>
