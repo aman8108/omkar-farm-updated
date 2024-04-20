@@ -51,7 +51,7 @@ section {
 .titleSection h1 {
   font-size: 2.4rem;
   font-weight: 500;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
   text-transform: capitalize;
@@ -63,7 +63,7 @@ section {
 .titleSection h2 {
   font-size: 2.4rem;
   font-weight: 500;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
   text-transform: capitalize;
@@ -117,7 +117,7 @@ section {
   .titleSection h2 {
     font-size: 2rem;
     font-weight: 500;
-     font-family: "Abril Fatface", serif;
+    font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
     text-transform: capitalize;
@@ -155,7 +155,7 @@ section {
   .titleSection h2 {
     font-size: 2rem;
     font-weight: 500;
-     font-family: "Abril Fatface", serif;
+    font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
     text-transform: capitalize;
@@ -206,7 +206,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-   font-family: "Abril Fatface", serif;
+  font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
   background-color: gray;
@@ -605,7 +605,7 @@ html {
 .homeSection h1 {
   text-align: center;
   font-size: 5rem;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
   font-weight: 500;
@@ -637,7 +637,7 @@ html {
   .homeSection h1 {
     text-align: center;
     font-size: 2.6rem;
-      font-family: "Abril Fatface", serif;
+     font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
     color: #fff;
@@ -829,7 +829,7 @@ html {
 .roomsFacility .roomCard .roomText h2 {
   text-align: center;
   color: #111;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
   padding: 10px;
@@ -846,7 +846,7 @@ html {
 .roomsFacility .roomCard .roomText p {
   text-align: center;
   color: #111;
-   font-family: "Abril Fatface", serif;
+  font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
   padding: 10px;
@@ -890,7 +890,7 @@ html {
 .facilitiesText h2 {
   font-size: 1.8rem;
   color: var(---primeColor);
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
   font-weight: 500;
@@ -980,7 +980,7 @@ html {
   font-weight: 500;
   color: var(---secondColor);
   font-size: 1.4rem;
-   font-family: "Abril Fatface", serif;
+  font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
 }
@@ -1071,7 +1071,7 @@ html {
   padding: 10px 15px;
   background-color: rgb(17, 17, 17, 0.7);
   margin: 0;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
   text-align: center;
@@ -1196,7 +1196,7 @@ html {
 .aboutus .ourstory h3 {
   font-size: 1.8rem;
   color:#008000 !important;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400 !important;
   font-style: normal;
   font-weight: 500;
@@ -1237,7 +1237,7 @@ html {
 #ourTeam .teamName h3 {
   font-size: 1.8rem;
   color: var(---primeColor);
-   font-family: "Abril Fatface", serif;
+  font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
   font-weight: 500;
@@ -1256,7 +1256,7 @@ html {
 .aboutus .ourstory h3 {
   font-size: 1.8rem;
   color: #d6a058;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
   font-weight: 500;
@@ -1268,7 +1268,7 @@ html {
   .aboutus .ourstory h3 {
     font-size: 1.6rem;
     color: #d6a058;
-      font-family: "Abril Fatface", serif;
+     font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
     font-weight: 500;
@@ -1290,7 +1290,7 @@ html {
   #ourTeam .teamName h3 {
     font-size: 1.6rem;
     color: var(---primeColor);
-     font-family: "Abril Fatface", serif;
+    font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
     font-weight: 500;
@@ -1321,7 +1321,7 @@ html {
 #activity .activityText h3 {
   font-size: 1.6rem;
   color: #008000;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
   font-weight: 500;
@@ -1396,7 +1396,7 @@ html {
 #room h3 {
   font-size: 1.6rem;
   color: #008000;
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
   font-weight: 900;
@@ -1497,7 +1497,7 @@ html {
 #package h3 {
   font-size: 1.6rem;
   color: var(---secondColor);
-    font-family: "Abril Fatface", serif;
+   font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
   text-transform: capitalize;
@@ -1584,7 +1584,7 @@ html {
   #package .rules li {
     color: #eee;
     font-size: 1rem;
-      font-family: "Abril Fatface", serif;
+     font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
   }

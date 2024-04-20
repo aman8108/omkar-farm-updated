@@ -51,15 +51,15 @@ function AccomodationP() {
 <Swiper
  spaceBetween={30}
  centeredSlides={true}
-//  pagination={{
-//    clickable: true,
-//  }}
+ pagination={{
+   clickable: true,
+ }}
 //  autoplay={{
 //   delay: 2500,
 //   disableOnInteraction: false,
 // }}
-//  navigation={true}
-//  modules={[, Navigation]}
+ navigation={true}
+ modules={[ Navigation]}
  className="mySwiper"
    >
         <SwiperSlide>
