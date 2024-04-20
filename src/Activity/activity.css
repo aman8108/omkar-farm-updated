@@ -6,10 +6,11 @@
     
     position: relative;
     background: url(../Assets/nightpool.jpg);
-    background-size: 110% 110%;
-    -moz-background-size: 110% 110%;
-    -webkit-background-size: 110% 110%;
-    -o-background-size: 110% 110%;
+    background-size: 110% 110% !important;
+    -moz-background-size: 110% 110% !important;
+    -webkit-background-size: 110% 110% !important;
+    -o-background-size: 110% 110% !important;
+    -webkit-background-size: cover !important;
     height: 650px;
     width: 100%;
     background-repeat: no-repeat;

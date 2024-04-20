@@ -10,7 +10,7 @@
     
     font-size: 1.8rem;
     color: var(---primeColor);
-     font-family: "Abril Fatface", serif;
+    font-family: "Platypi", serif;
   font-weight: 400;
     text-transform: capitalize;
 }
@@ -45,7 +45,7 @@
     text-align: center;
     font-size: 1.8rem;
     color: var(---primeColor);
-    /* font-family: var(---OswaldFont); */
+    font-family: "Platypi", serif !important;
      font-weight: 400;
     font-weight: 400;
     
