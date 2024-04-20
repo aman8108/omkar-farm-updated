@@ -81,7 +81,7 @@ function GalleryP() {
         </div> */}
 
 <Box>
-      <ImageList variant="masonry" cols={3} gap={8}>
+      <ImageList variant="masonry" cols={4} gap={8}>
         {items.map((item) => (
           <ImageListItem key={item.img}>
             <Image

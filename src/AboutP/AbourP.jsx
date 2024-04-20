@@ -65,7 +65,7 @@ function AbourP() {
       <div className="col-lg-6 p-0 m-0" data-aos="fade-left">
         <Fade direction='right'>
         <div className="ourstory">
-          <h3>Our Mision</h3>
+          <h3>Our Mission</h3>
           <p>
           Our mission at Omkar Nature Farm is to provide guests with an immersive experience that reconnects them with nature, fosters relaxation, and promotes environmental stewardship through sustainable practices.
           </p>
