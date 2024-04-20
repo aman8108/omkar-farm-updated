@@ -29,6 +29,8 @@ const omkarNature = [
             title: "A/C Room",
             category:"room",
             imageUr1: room1,
+            width: 4,
+           height: 3,
            
             
             
@@ -59,12 +61,16 @@ const omkarNature = [
             title: "Swimmingpool",
             category:"Swimmingpool",
             imageUr1: swimming1,
+            width: 4,
+      height: 3,
           },
           {
             id:2,
             title: "Swimmingpool",
             category:"Swimmingpool",
-            imageUr1: swimming4
+            imageUr1: swimming4,
+            width: 1,
+      height: 1,
           },
 
           {
@@ -72,12 +78,17 @@ const omkarNature = [
             title: "Swimmingpool",
             category:"Swimmingpool",
             imageUr1: swimming9,
+            width: 3,
+      height: 4,
           },
           {
             id:4,
             title: "Swimmingpool",
             category:"Swimmingpool",
             imageUr1: swimming10,
+            width: 1,
+            height: 2,
+            
           },
 
           // **************************************************event*******************************************************
@@ -86,6 +97,8 @@ const omkarNature = [
             title: "Events",
             category:"events",
             imageUr1: event1,
+            width: 3,
+            height: 4,
             
           },
           {
@@ -93,6 +106,8 @@ const omkarNature = [
             title: "Events",
             category:"events",
             imageUr1: event2,
+            width: 4,
+            height: 3,
           
           },
           {
@@ -100,12 +115,16 @@ const omkarNature = [
             title: "Events",
             category:"events",
             imageUr1: event3,
+            width: 2,
+            height: 2,
           },
           {
             id:4,
             title: "Events",
             category:"events",
             imageUr1:event4,
+            width: 4,
+            height: 4,
           },
         
 
@@ -115,6 +134,8 @@ const omkarNature = [
             title: "Activities",
             category:"activity",
             imageUr1: activity3,
+            width: 1,
+            height: 1,
           },
     
           {
@@ -122,6 +143,8 @@ const omkarNature = [
             title: "Activities",
             category:"activity",
             imageUr1:activity2,
+            width: 3,
+            height: 4,
           },
     
           {
@@ -129,6 +152,8 @@ const omkarNature = [
             title: "Activities",
             category:"activity",
             imageUr1:activity5  ,
+            width: 3,
+            height: 2,
             
           },
           {
@@ -136,6 +161,8 @@ const omkarNature = [
             title: "Activities",
             category:"activity",
             imageUr1: activity6,
+            width: 3,
+            height: 4,
             
           }
     

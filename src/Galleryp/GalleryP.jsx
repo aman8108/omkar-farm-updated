@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import omkarNature from "../Json/JsonDaata";
 import  { useLayoutEffect } from 'react'
 import { Image } from 'antd';
-
+import Box from '@mui/material/Box';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
 function GalleryP() {
   const [items, setItems] = useState(omkarNature);
   useLayoutEffect(()=>{
@@ -60,7 +62,7 @@ function GalleryP() {
           </ul>
         </div>
 
-        <div className="row">
+        {/* <div className="row">
           {items.map((item, index) => (
             <div key={index} className="col-12 col-md-6 col-lg-4 col-xl-3 hero" style={{ marginBottom: "20px" }}>
               <div id="containergallery" className="isotope" style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}>
@@ -76,7 +78,22 @@ function GalleryP() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
+
+<Box>
+      <ImageList variant="masonry" cols={3} gap={8}>
+        {items.map((item) => (
+          <ImageListItem key={item.img}>
+            <Image
+              srcSet={`${item.imageUr1}?w=248&fit=crop&auto=format&dpr=2 2x`}
+              src={`${item.imageUr1}?w=248&fit=crop&auto=format`}
+              alt={item.title}
+              loading="lazy"
+            />
+          </ImageListItem>
+        ))}
+      </ImageList>
+    </Box>
       </section>
     </div>
     </>

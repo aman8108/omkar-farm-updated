@@ -2,6 +2,7 @@ import "./eventt.css";
 import { CiStar } from "react-icons/ci";
 import getTo from '../Assets/getToGet.jpg'
 import annyver from '../Assets/anniversary.jpg'
+import birthdayImage from '../Assets/weAre.jpg'
 import { Fade } from 'react-awesome-reveal';
 
 function EventPage() {
@@ -34,7 +35,7 @@ function EventPage() {
             <div className="col-lg-6 sm-2-sm-12">
               <Fade direction="left">
                 <div className="event-image">
-                  <img src="https://sevencorbett.com/wp-content/uploads/2021/10/resort-for-birthday-celebration-image-4.jpg" alt="" />
+                  <img src={birthdayImage} alt="" />
                 </div>
               </Fade>
             </div>

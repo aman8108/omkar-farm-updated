@@ -11,6 +11,7 @@ import GalleryPage from './Zpages/GalleryPage';
 import Whatsappicon from './Whatsappicon/Whatsappicon';
 import EventP from './Zpages/EventP';
 import Amenities from './Amenities/Amenities';
+// import Light from './Light/Light';
 
 
 
@@ -32,6 +33,7 @@ function App() {
       <Route path='/accomodation' element={<AccomodationPage/>}/>
       <Route path='/gallery' element={<GalleryPage/>}/>
       <Route path='/contect-us' element={<ContectPage/>}/>
+      {/* <Route path='/light' element={<Light />}/> */}
      
      
       

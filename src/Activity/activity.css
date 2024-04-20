@@ -82,6 +82,7 @@
     height: 320px;
     width: 100%;
     background-repeat: no-repeat;
+    background-position: center !important;
     background-position: center top;
   }
   
