@@ -1301,6 +1301,18 @@ html {
 }
 
 /* ==============================================Activity=======================================*/
+@media (max-width: 1440px) {
+  .homeScroll3 {
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: u; */
+    overflow: hidden;
+}
+  }
+
 
 .homeScroll3 {
   background: linear-gradient(
@@ -1313,8 +1325,10 @@ html {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-size: 100% 100% !important;
+  
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
   overflow: hidden;
 }
 
