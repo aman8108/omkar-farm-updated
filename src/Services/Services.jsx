@@ -1,7 +1,7 @@
 import roomservice from "../Assets/omkar-ac-bedroom-1.jpg"
 import bestservice from "../Assets/bestroom.webp"
 import './service.css'
-import villaimg from '../Assets/villa-img1.jpg'
+import villaimg from '../Assets/omkae-image-4.jpg'
 import { Link } from 'react-router-dom'
 import { Fade } from 'react-awesome-reveal'
 function Services() {
