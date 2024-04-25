@@ -3,7 +3,7 @@ import vila from "../Assets/villa-img1.jpg"
 import villa from "../Assets/omkae-image-3.jpg"
 import villla from "../Assets/omkae-image-7.jpg"
 import room1 from "../Assets/omkar-ac-bedroom-1.jpg"
-import room12 from "../Assets/room2.jpg"
+import bedroomm from "../Assets/bedroom-omkar-2.jpg"
 import { FaWifi } from "react-icons/fa";
 
 import { IoFootballOutline } from "react-icons/io5";
@@ -324,11 +324,11 @@ function AccomodationP() {
         <SwiperSlide>
            <img src={room1} alt="" />
         </SwiperSlide>
+        <SwiperSlide>
+           <img src={bedroomm} alt="" />
+        </SwiperSlide>
         {/* <SwiperSlide>
-           <img src={room12} alt="" />
-        </SwiperSlide> */}
-        {/* <SwiperSlide>
-           <img src="https://i0.wp.com/hotelriverdale.com/wp-content/uploads/2023/02/Premium-Room-2-scaled.jpg?fit=940%2C677&ssl=1" alt="" />
+           <img src={bedr} alt="" />
         </SwiperSlide> */}
       
       </Swiper>
