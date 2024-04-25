@@ -339,7 +339,7 @@ function AccomodationP() {
           <div className="col-md-6 col-sm-6">
             <Fade direction='right'>
             <div className="rmbx aos-init aos-animate" data-aos="fade-left">
-              <h3>A/C Room Room</h3>
+              <h3>A/C Room</h3>
               <div className="room-content">
                 <p>
                 Relax in our cozy AC rooms, where large windows allow ample natural light and a refreshing breeze. Enjoy modern amenities amidst a serene ambiance, ensuring a comfortable and rejuvenating stay. Whether for leisure or business, our rooms offer the perfect retreat after a day of exploration or work, promising a peaceful haven for all our guests.
