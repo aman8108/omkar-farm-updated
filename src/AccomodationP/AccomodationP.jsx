@@ -43,7 +43,6 @@ import { Fade, Slide } from "react-awesome-reveal";
 function AccomodationP() {
   return (
     <>
-
 <Swiper
  spaceBetween={30}
  centeredSlides={true}
