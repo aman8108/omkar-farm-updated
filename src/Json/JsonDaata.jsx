@@ -79,7 +79,7 @@ const omkarNature = [
             category:"Swimmingpool",
             imageUr1: swimming9,
             width: 3,
-      height: 4,
+            height: 4,
           },
           {
             id:4,
