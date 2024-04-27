@@ -18,10 +18,6 @@ import { CiStar } from "react-icons/ci";
 import "./accomo.css"
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-router-dom'
-
-
-
-
 import  { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -54,10 +50,6 @@ function AccomodationP() {
  pagination={{
    clickable: true,
  }}
-//  autoplay={{
-//   delay: 2500,
-//   disableOnInteraction: false,
-// }}
  navigation={true}
  modules={[ Navigation]}
  className="mySwiper"
