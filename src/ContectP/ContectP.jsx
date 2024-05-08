@@ -15,16 +15,16 @@ function ContectP() {
   const submitForm = (values) => {
     console.log("values",values);
 
-    var body = '<!DOCTYPE html><html><head><title>Enquiry Lead</title></head><body><div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background-color:#f2f2f2;padding:20px"><h2 style="color:#dc9d7e">Omkar Nature Farm</h2><p>Hello</p><p>Thank you for your interest in our products/services.</p><p>Please check your enquiry which generated from website:</p><table cellpadding="5" style="margin:0"><tr><td style="text-align:left;color:#dc9d7e"><strong>Name:</strong></td><td style="text-align:left">' + values.name + '</td></tr><tr><td style="text-align:left;color:#dc9d7e"><strong>Email:</strong></td><td style="text-align:left">' + values.email + '</td></tr><tr><td style="text-align:left;color:#dc9d7e"><strong>Subject:</strong></td><td style="text-align:left">' + values.subject + '</td></tr><tr><td style="text-align:left;color:#dc9d7e"><strong>Message:</strong></td><td style="text-align:left">' + values.message + '</td></tr></table><p style="font-weight:700">Best regards,<br>Your Team at Omkar Nature Farm</p></div></body></html>';
+    var body =  '<!DOCTYPE html><html><head><title>Enquiry Lead</title></head><body><div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background-color:#f2f2f2;padding:20px"><h2 style="color:#dc9d7e">Omkar Nature Farm</h2><p>Hello</p><p>Thank you for your interest in our products/services.</p><p>Please check your enquiry which generated from website:</p><table cellpadding="5" style="margin:0"><tr><td style="text-align:left;color:#dc9d7e"><strong>Name:</strong></td><td style="text-align:left">' + values.name + '</td></tr><tr><td style="text-align:left;color:#dc9d7e"><strong>Email:</strong></td><td style="text-align:left">' + values.email + '</td></tr><tr><td style="text-align:left;color:#dc9d7e"><strong>Subject:</strong></td><td style="text-align:left">' + values.subject + '</td></tr><tr><td style="text-align:left;color:#dc9d7e"><strong>Message:</strong></td><td style="text-align:left">' + values.message + '</td></tr><tr><td style="text-align:left;color:#dc9d7e"><strong>Mobile Number:</strong></td><td style="text-align:left">' + values.mobileNo + '</td></tr></table><p style="font-weight:700">Best regards,<br>Your Team at Omkar Nature Farm</p></div></body></html>';
 
         $.post("https://skdm.in/server/v1/send_lead_mail.php", {
-            toEmail: "amansinghthakur354@gmail.com",
+            toEmail: "formomkarnature@gmail.com",
             fromEmail: "skdmlead@gmail.com",
             bccMail: "skdmlead@gmail.com",
             mailSubject: "New Customer Lead",
             mailBody: body,
             accountName: "Omkar nature farm",
-            accountLeadSource: "https://jutiepie.in/",
+            accountLeadSource: "omkarnaturefarm.in",
             accountLeadName: values.name,
             accountLeadEmail: values.email,
             accountLeadPhone: values.contact,
@@ -150,8 +150,7 @@ function ContectP() {
                       />
                     </Form.Item>
                   </div>
-                </div>
-                <div className="form-group">
+                <div className="form-group col-lg-6">
                   <Form.Item 
                   name="email"
                    label="Email"
@@ -167,6 +166,24 @@ function ContectP() {
                       className="form-control custEmail custEmailValidation"
                     />
                   </Form.Item>
+                </div>
+                <div className="form-group col-lg-6">
+                  <Form.Item 
+                  name="mobileNo"
+                   label="mobileNo"
+                   rules={[
+                    {
+                      required: true,
+                      message: 'Please enter mobile:no!',
+                    },
+                  ]}
+                   >
+                    <Input
+                      placeholder="Enter mobile:no"
+                      className="form-control custEmail custEmailValidation"
+                    />
+                  </Form.Item>
+                </div>
                 </div>
                 <div className="form-group">
                   <Form.Item
