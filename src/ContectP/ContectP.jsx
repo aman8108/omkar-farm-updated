@@ -51,7 +51,7 @@ function ContectP() {
           data-aos="fade-right"
         >
           <Fade direction="right">
-            <h1>CONTACT US</h1>
+            <h1>CONTACT</h1>
           </Fade>
         </div>
         <div className="container mb-5">
