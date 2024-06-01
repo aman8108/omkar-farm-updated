@@ -21,6 +21,7 @@ import { Link } from 'react-router-dom'
 import  { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import MetaTags from 'react-meta-tags';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -43,6 +44,28 @@ import { Fade, Slide } from "react-awesome-reveal";
 function AccomodationP() {
   return (
     <>
+    <MetaTags>
+      <title>Farmhouse with Private Pool in Wada | Omkar Nature Farm</title>
+        <meta title="Farmhouse with Private Pool in Wada | Omkar Nature Farm" />
+        <meta
+          name="description"
+          content="Indulge in luxury and serenity at our Farmhouse with a Private Pool in Wada. Escape the urban chaos and immerse yourself in a tranquil oasis."
+        />
+        <meta
+          name="keywords"
+          content="Farmhouse in Wada,Farmhouse in Wada for Family,Best Farmhouse in Wada,Farmhouse for Events in Wada,Farmhouse with Private Pool in Wada,Private Farmhouse in Wada,Farmhouse near Wada"
+        />
+        <link rel="canonical" href="https://omkarnaturefarm.in/Farmhouse with Private Pool in Wada" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta property="og:title" content="Farmhouse with Private Pool in Wada | Omkar Nature Farm" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://omkarnaturefarm.in/ Farmhouse with Private Pool in Wada"/>
+        <meta property="og:description" content="Indulge in luxury and serenity at our Farmhouse with a Private Pool in Wada. Escape the urban chaos and immerse yourself in a tranquil oasis. " />
+        <meta property="og:image" content="https://omkarnaturefarm.in/static/media/omkar-nature.87735681decd4a0e08d7.jpeg" />       
+      </MetaTags>
 <Swiper
  spaceBetween={30}
  centeredSlides={true}
@@ -89,7 +112,7 @@ function AccomodationP() {
   <div className="homeSection" id="home">
     <div className="homeText">
     <div className="titleSection">
-        <h1>Accommodation</h1>
+        <h2>Accommodation</h2>
       </div>
       <ul>
         <li>
@@ -120,7 +143,7 @@ function AccomodationP() {
   <div className="homeSection" id="home">
     <div className="homeText">
     <div className="titleSection">
-        <h1>Accommodation</h1>
+        <h2>Accommodation</h2>
       </div>
       <ul>
         <li>
@@ -313,10 +336,10 @@ function AccomodationP() {
         className="mySwiper"
       >
         <SwiperSlide>
-           <img src={room1} alt="" />
+           <img src={room1} alt="Farmhouse with Private Pool in Wada" />
         </SwiperSlide>
         <SwiperSlide>
-           <img src={bedroomm} alt="" />
+           <img src={bedroomm} alt="Farmhouse with Private Pool" />
         </SwiperSlide>
         {/* <SwiperSlide>
            <img src={bedr} alt="" />
@@ -333,7 +356,13 @@ function AccomodationP() {
               <h3>A/C Room</h3>
               <div className="room-content">
                 <p>
-                Relax in our cozy AC rooms, where large windows allow ample natural light and a refreshing breeze. Enjoy modern amenities amidst a serene ambiance, ensuring a comfortable and rejuvenating stay. Whether for leisure or business, our rooms offer the perfect retreat after a day of exploration or work, promising a peaceful haven for all our guests.
+                Relax in our cozy AC rooms at the Farmhouse with Private Pool in Wada, where large windows allow ample natural light and a refreshing breeze. Enjoy modern amenities amidst a serene ambiance, ensuring a comfortable and rejuvenating stay. Whether for leisure or business, our rooms offer the perfect retreat after a day of exploration or work, promising a peaceful haven for all our guests.
+
+
+
+
+
+
                 </p>
                 <div className="roomServices">
                   <ul>
@@ -379,7 +408,7 @@ function AccomodationP() {
               <h3>Villa</h3>
               <div className="room-content">
                 <p>
-                "Indulge in luxury and sophistication in our exquisite villas. Experience opulent living spaces, breathtaking views, and unparalleled comfort. Whether it's a romantic getaway or a family retreat, our villas offer the perfect blend of elegance and relaxation. Reserve your villa now for an unforgettable escape into luxury at our farm house."
+                "Indulge in luxury and sophistication in our exquisite villas at the Farmhouse with Private Pool in Wada. Experience opulent living spaces, breathtaking views, and unparalleled comfort. Whether it's a romantic getaway or a family retreat, our villas offer the perfect blend of elegance and relaxation. Reserve your villa now for an unforgettable escape into luxury at our farm house."
                 </p>
                 <div className="roomServices">
                   <ul>
@@ -435,13 +464,13 @@ function AccomodationP() {
         className="mySwiper"
       >
         <SwiperSlide>
-           <img src={vila}alt="" />
+           <img src={vila}alt="Farmhouse " />
         </SwiperSlide>
         <SwiperSlide>
-           <img src={villa} alt="" />
+           <img src={villa} alt=" Private Pool in Wada" />
         </SwiperSlide>
         <SwiperSlide>
-           <img src={villla} alt="" />
+           <img src={villla} alt="Pool in Wada" />
         </SwiperSlide>
       
       </Swiper>

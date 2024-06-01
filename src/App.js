@@ -27,12 +27,12 @@ function App() {
     <Whatsappicon/>
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='/about-us' element={<AboutPages/>}/>
+      <Route path='/family-farmhouse-wada' element={<AboutPages/>}/>
       <Route path='/activitypage' element={<ActivityPage/>}/>
       <Route path='/eventpage' element={<EventP/>}/>
-      <Route path='/accomodation' element={<AccomodationPage/>}/>
-      <Route path='/gallery' element={<GalleryPage/>}/>
-      <Route path='/contect-us' element={<ContectPage/>}/>
+      <Route path='/farmhouse-private-pool' element={<AccomodationPage/>}/>
+      <Route path='/private-farmhouse-wada' element={<GalleryPage/>}/>
+      <Route path='/farmhouse-near-wada' element={<ContectPage/>}/>
       {/* <Route path='/light' element={<Light />}/> */}
      
      

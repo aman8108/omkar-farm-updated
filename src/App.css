@@ -60,6 +60,7 @@ section {
   padding: 10px 0;
 }
 
+
 .titleSection h2 {
   font-size: 2.4rem;
   font-weight: 500;
@@ -1612,7 +1613,7 @@ html {
       rgb(255, 255, 255, 0),
       rgb(255, 255, 255, 0)
     ),
-    url("../src/Assets/eventBigImg.jpg");
+    url("../src/Assets/omkar-sky-decor-updated-img.avif");
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;

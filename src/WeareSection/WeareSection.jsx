@@ -1,6 +1,6 @@
 import React from 'react'
-import chair from "../Assets/eventfood.jpg"
-import chair2 from "../Assets/food.jpg"
+import chair from "../Assets/omkar-about-food-updated-img.avif"
+import chair2 from "../Assets/omkar-about-second-food-updated-img.avif"
 import "./weAre.css"
 function WeareSection() {
   return (
@@ -44,7 +44,7 @@ function WeareSection() {
                 src={chair}
                
                 className="img-fluid w-100 rounded shadow-sm"
-                alt=""
+                alt="Farmhouse in Wada for Family"
               />
               {/* </Fade> */}
             </figure>
@@ -56,7 +56,7 @@ function WeareSection() {
                 src={chair2}
                
                 className="img-fluid w-100 rounded shadow-sm "
-                alt=""
+                alt="Farmhouse in Wada"
               />
               {/* </Fade> */}
             </figure>
@@ -95,7 +95,8 @@ function WeareSection() {
             <h2 className=" ff-heading">Omkar Nature Farm</h2>
             <p className="mb-6">
 
-            Welcome to Omkar Nature Farm, a sanctuary of natural beauty and rural charm! Tucked away in scenic surroundings, our farm beckons you to escape the hustle and bustle of city life. Whether you seek a peaceful retreat or an exciting adventure, Omkar Nature Farm promises an unforgettable experience for individuals, families, and nature enthusiasts alike. Come, join us in embracing the tranquil rhythms of nature and creating cherished memories that will last a lifetime. Your journey to relaxation, rejuvenation, and connection with the land begins here!
+           
+Welcome to Omkar Nature Farm, a sanctuary of natural beauty and rural charm! Tucked away in scenic surroundings, our farm beckons you to escape the hustle and bustle of city life. Whether you seek a peaceful retreat or an exciting adventure, Omkar Nature Farm promises an unforgettable experience for individuals, families, and nature enthusiasts alike. For those seeking the perfect getaway, our Farmhouse in Wada for Family offers the ideal setting to relax and reconnect. Come, join us in embracing the tranquil rhythms of nature and creating cherished memories that will last a lifetime. Your journey to relaxation, rejuvenation, and connection with the land begins here at our Farmhouse in Wada for Family!
             </p>
             <a role="button" tabIndex={0} href="#!" className="custom-btn "> 
             <a href="/wedding-event-planner-mumbai" style={{ color: "white" }}>

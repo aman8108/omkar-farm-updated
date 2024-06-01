@@ -1,8 +1,9 @@
 import React from 'react'
 import './event.css'
-import eventbig from "../Assets/eventBigImg.jpg"
-import eventgetTo from "../Assets/eventGet.jpg"
-import birthday from '../Assets/weAre.jpg'
+import eventbig from "../Assets/omkar-sky-decor-updated-img.avif"
+import eventgetTo from "../Assets/omkar-drinks-updated-img.avif"
+import birthday from '../Assets/birthday-decor-updated-img.avif'
+import pre from '../Assets/pre-weeding-updated-img.avif'
 import { Fade, Slide } from "react-awesome-reveal";
 function Event() {
   return (
@@ -40,7 +41,7 @@ function Event() {
           </div>
           <div className="facilitesList">
             <p>
-            "Host your unforgettable events and celebrations with us! Our venue provides a charming setting, customizable packages, and attentive service to ensure your  get-together , pre-wedding, birthday, or special occasion is nothing short of extraordinary. From exquisite catering to seamless coordination, let us bring your vision to life and create cherished memories that will last a lifetime. Get in touch with us today to start planning your perfect event experience!"
+            "Host your unforgettable events and celebrations with us at our Farmhouse in Wada! Our venue provides a charming setting, customizable packages, and attentive service to ensure your get-together, pre-wedding, birthday, or special occasion is nothing short of extraordinary. From exquisite catering to seamless coordination, let us bring your vision to life and create cherished memories that will last a lifetime. Get in touch with us today to start planning your perfect event experience!"
             </p>
             <ul>
               <li>Birthday Decoration </li>
@@ -77,7 +78,7 @@ function Event() {
     <div className="col-lg-4 col-sm-6 p-0 m-0">
       <div className="attrectionCard">
         <div className="attrectionImg">
-          <img src="https://assets-global.website-files.com/5e6ab50d8ea3c3153e68ce54/5ee79de3988a394014fd44a1_HEADER.jpg" alt="Eera's Restaurant Menu" />
+          <img src={pre} alt="Eera's Restaurant Menu" />
           <h3 className='eventh3'>Pre-wedding Shoot </h3>
         </div>
       </div>

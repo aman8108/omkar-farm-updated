@@ -5,6 +5,7 @@ import { Image } from 'antd';
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import MetaTags from 'react-meta-tags';
 function GalleryP() {
   const [items, setItems] = useState(omkarNature);
   useLayoutEffect(()=>{
@@ -22,7 +23,36 @@ function GalleryP() {
 
   return (
     <>
-     
+    <MetaTags>
+      <title>Private Farmhouse in Wada | Omkar Nature Farm</title>
+        <meta title="Private Farmhouse in Wada | Omkar Nature Farm" />
+        <meta
+          name="description"
+          content="Experience the epitome of tranquility at our Private Farmhouse in Wada. Escape the hustle and bustle, surrounded by nature's beauty. Book your stay now!"
+        />
+        <meta
+          name="keywords"
+          content="Farmhouse in Wada,Farmhouse in Wada for Family,Best Farmhouse in Wada,Farmhouse for Events in Wada,Farmhouse with Private Pool in Wada,Private Farmhouse in Wada,Farmhouse near Wada"
+        />
+        <link rel="canonical" href="https://omkarnaturefarm.in/ Private Farmhouse in Wada" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta property="og:title" content="Private Farmhouse in Wada | Omkar Nature Farm" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://omkarnaturefarm.in/Farmhouse in Wada"/>
+        <meta property="og:description" content="Experience the epitome of tranquility at our Private Farmhouse in Wada. Escape the hustle and bustle, surrounded by nature's beauty. Book your stay now! " />
+        <meta property="og:image" content="https://omkarnaturefarm.in/static/media/omkar-nature.87735681decd4a0e08d7.jpeg" />       
+      </MetaTags>
+     <p className='d-none'>
+Experience the epitome of exclusivity and tranquility at Omkar Farm House, your Private Farmhouse in Wada. Nestled amidst the serene landscapes of Wada, our farmhouse offers a secluded retreat for those seeking ultimate privacy and relaxation.
+
+At Omkar Farm House, immerse yourself in the beauty of nature as you unwind in your own private sanctuary. Whether you're enjoying a leisurely stroll through our lush gardens, taking a refreshing dip in the pool, or simply basking in the serenity of the countryside, every moment here is crafted to rejuvenate your senses and soothe your soul.
+
+With spacious accommodations and luxurious amenities, our Private Farmhouse in Wada provides the perfect setting for intimate gatherings, family vacations, or romantic escapes. Whether you're planning a weekend getaway or an extended stay, our farmhouse is your haven away from the hustle and bustle of city life.
+
+Book your stay at Omkar Farm House today and experience the allure of a Private Farmhouse in Wada like never before. Reconnect with nature, create unforgettable memories, and indulge in the luxury of seclusion—all within the idyllic surroundings of our esteemed farmhouse. Welcome to your home away from home, where tranquility meets luxury, and every moment is cherished. Welcome to Omkar Farm House.</p>
     
        <div className="homeScroll4">
         <div className="homeSection" id="home">

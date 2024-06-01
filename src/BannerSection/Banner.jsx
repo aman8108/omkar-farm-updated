@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 function Banner() {
   return (
     <>
+    
       <div className="homeScroll">
   <div className="homeSection" id="home">
     <div className="homeText">

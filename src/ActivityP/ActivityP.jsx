@@ -1,14 +1,37 @@
 import React, { useLayoutEffect } from 'react'
 import { Link } from 'react-router-dom'
-import collagee from "../Assets/Beige Minimalist.png"
+import collagee from "../Assets/birthday-decor-updated-img.avif"
 import { Fade } from 'react-awesome-reveal'
+import MetaTags from 'react-meta-tags';
+import "./acti.css"
 function ActivityP() {
   useLayoutEffect(()=>{
    window.scrollTo(0,0)
   })
   return (
     <>
-
+ <MetaTags>
+      <title>Best Farmhouse in Wada | Omkar Nature Farm</title>
+        <meta title="Best Farmhouse in Wada | Omkar Nature Farm" />
+        <meta
+          name="description"
+          content="Discover the ultimate getaway at the Best Farmhouse in Wada. Experience unparalleled luxury and serenity amidst nature's embrace. Book your dream stay!"
+        />
+        <meta
+          name="keywords"
+          content="Farmhouse in Wada,Farmhouse in Wada for Family,Best Farmhouse in Wada,Farmhouse for Events in Wada,Farmhouse with Private Pool in Wada,Private Farmhouse in Wada,Farmhouse near Wada"
+        />
+        <link rel="canonical" href="https://omkarnaturefarm.in/ Best Farmhouse in Wada" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta property="og:title" content="Farmhouse in Wada for Family | Omkar Nature Farm" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://omkarnaturefarm.in/Farmhouse in Wada"/>
+        <meta property="og:description" content="Discover the ultimate getaway at the Best Farmhouse in Wada. Experience unparalleled luxury and serenity amidst nature's embrace. Book your dream stay! " />
+        <meta property="og:image" content="https://omkarnaturefarm.in/static/media/omkar-nature.87735681decd4a0e08d7.jpeg" />       
+      </MetaTags>
 <div className="homeScroll3">
   <div className="homeSection" id="home">
   <div className="homeSection" id="home">
@@ -22,7 +45,7 @@ function ActivityP() {
     
     <section id="activity">
   <div className="titleSection">
-    <h1>Our Activity</h1>
+    <h3>Our Activity</h3>
   </div>
   <div className="container">
     <div className="row">
@@ -42,7 +65,7 @@ function ActivityP() {
           <div className="activityText">
          
               <h3>Swimming pool</h3>
-              <p>Dive into relaxation at our refreshing swimming pool. Book your stay now for the ultimate rejuvenating experience</p>
+              <p>Dive into relaxation at our refreshing swimming pool at the Best Farmhouse in Wada. Book your stay now for the ultimate rejuvenating experience!</p>
               
             </div>
         
@@ -68,7 +91,7 @@ function ActivityP() {
         <div className="activeImage aos-init aos-animate" data-aos="zoom-in-up">
           <img
             src={collagee}
-            alt="Candle Light Dinner Setup"
+            alt="Best Farmhouse in Wada"
           />
         </div>
         </Fade>
@@ -81,7 +104,7 @@ function ActivityP() {
             <div className="activityText">
               <h3>Cricket</h3>
               <p>
-              Experience thrilling cricket matches in our expansive field, where players of all levels can enjoy the excitement of the game.
+              Experience thrilling cricket matches in our expansive field at the Best Farmhouse in Wada, where players of all levels can enjoy the excitement of the game.
               </p>
             </div>
           </div>

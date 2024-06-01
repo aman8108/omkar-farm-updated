@@ -6,6 +6,7 @@ import { Fade } from "react-awesome-reveal";
 import ContectBanner from "../ContectBanner/ContectBanner";
 import { Button, Form, Input } from "antd";
 import $ from "jquery"
+import MetaTags from 'react-meta-tags';
 
 function ContectP() {
   useLayoutEffect(() => {
@@ -42,6 +43,39 @@ function ContectP() {
   };
   return (
     <>
+    <MetaTags>
+      <title>Farmhouse near Wada | Omkar Nature Farm</title>
+        <meta title="Farmhouse near Wada | Omkar Nature Farm" />
+        <meta
+          name="description"
+          content="At the Farmhouse near Wada, experience serene retreats amidst nature's embrace. Leave the city behind and immerse yourself in tranquility."
+        />
+        <meta
+          name="keywords"
+          content="Farmhouse in Wada,Farmhouse in Wada for Family,Best Farmhouse in Wada,Farmhouse for Events in Wada,Farmhouse with Private Pool in Wada,Private Farmhouse in Wada,Farmhouse near Wada"
+        />
+        <link rel="canonical" href="https://omkarnaturefarm.in/ Farmhouse near Wada" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta property="og:title" content="Farmhouse near Wada | Omkar Nature Farm" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://omkarnaturefarm.in/Farmhouse near Wada"/>
+        <meta property="og:description" content="At the Farmhouse near Wada, experience serene retreats amidst nature's embrace. Leave the city behind and immerse yourself in tranquility. " />
+        <meta property="og:image" content="https://omkarnaturefarm.in/static/media/omkar-nature.87735681decd4a0e08d7.jpeg" />       
+      </MetaTags>
+    <p className="d-none">
+    Welcome to Omkar Nature Farm House, your premier destination for a blissful retreat near Wada. Situated amidst the picturesque landscapes of Wada, our farmhouse offers an idyllic escimgape from the hustle and bustle of city life.
+
+At Omkar Nature Farm House, immerse yourself in the beauty of nature as you unwind in our serene surroundings. Whether you're seeking a peaceful getaway with your loved ones or an adventurous outing with friends, our farmhouse provides the perfect setting for both relaxation and exploration.
+
+Indulge in a range of activities, from nature walks and birdwatching to bonfires under the starlit sky. Our farmhouse near Wada ensures that every moment is filled with joy and tranquility, allowing you to reconnect with yourself and with nature.
+
+With comfortable accommodations, delicious farm-to-table meals, and warm hospitality, Omkar Nature Farm House ensures a memorable stay for every guest. Whether you're planning a weekend getaway or a longer vacation, our farmhouse near Wada promises an unforgettable experience amidst the beauty of the countryside.
+
+Escape to Omkar Nature Farm House and discover the magic of rural living near Wada. Book your stay with us today and embark on a journey of relaxation, rejuvenation, and discovery.
+    </p>
       <ContectBanner />
 
       {/* ======================================= contact Us ================================== */}
@@ -51,7 +85,7 @@ function ContectP() {
           data-aos="fade-right"
         >
           <Fade direction="right">
-            <h1>CONTACT</h1>
+            <h1>CONTACT US</h1>
           </Fade>
         </div>
         <div className="container mb-5">
@@ -104,7 +138,7 @@ function ContectP() {
         <div className="contactImgIcon">
           <img
             src="https://s.w.org/images/core/emoji/13.1.0/svg/1f44b.svg"
-            alt=""
+            alt="Farmhouse near Wada"
           />
         </div>
         <div className="container">

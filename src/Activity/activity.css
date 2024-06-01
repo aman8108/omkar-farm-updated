@@ -5,7 +5,7 @@
   .activity .fisrtImage {
     
     position: relative;
-    background: url(../Assets/nightpool.jpg);
+    background: url(../Assets/omkar-night-pool-updated.avif);
     background-size: 110% 110% !important;
     -moz-background-size: 110% 110% !important;
     -webkit-background-size: 110% 110% !important;
@@ -49,7 +49,7 @@
   
   .activity .secondImage {
     position: relative;
-    background: url(https://lh3.googleusercontent.com/p/AF1QipPBqHurFCMvFjSk2kSVNlB0v2HbbZSkeZ7VA0TY=s1360-w1360-h1020);
+    background: url(../Assets/lawn.avif);
     background-size: 100% 100%;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -73,7 +73,7 @@
   
   .activity .thiredImage {
     position: relative;
-    background: url("../Assets/getActivity.jpg");
+    background: url(../Assets/omkar-win-img-updated.avif);
     background-size: 100% 100%;
     object-fit: cover;
     -moz-background-size: cover;

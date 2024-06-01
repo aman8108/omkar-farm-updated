@@ -2,12 +2,36 @@
 import React, { useLayoutEffect } from 'react'
 import { Fade, Slide } from "react-awesome-reveal";
 import WeareSection from '../WeareSection/WeareSection';
+import MetaTags from 'react-meta-tags';
 function AbourP() {
   useLayoutEffect(()=>{
     window.scrollTo(0,0)
    })
   return (
+
     <>
+    <MetaTags>
+      <title>Farmhouse in Wada for Family | Omkar Nature Farm</title>
+        <meta title="Farmhouse in Wada for Family | Omkar Nature Farm" />
+        <meta
+          name="description"
+          content=" Discover a tranquil Farmhouse in Wada for family getaways. Enjoy a peaceful retreat surrounded by nature, offering comfort and relaxation for your entire family."
+        />
+        <meta
+          name="keywords"
+          content="Farmhouse in Wada,Farmhouse in Wada for Family,Best Farmhouse in Wada,Farmhouse for Events in Wada,Farmhouse with Private Pool in Wada,Private Farmhouse in Wada,Farmhouse near Wada"
+        />
+        <link rel="canonical" href="https://omkarnaturefarm.in/ Farmhouse in Wada for Family" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta property="og:title" content="Farmhouse in Wada for Family | Omkar Nature Farm" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://omkarnaturefarm.in/Farmhouse in Wada for family"/>
+        <meta property="og:description" content=" Discover a tranquil Farmhouse in Wada for family getaways. Enjoy a peaceful retreat surrounded by nature, offering comfort and relaxation for your entire family. " />
+        <meta property="og:image" content="https://omkarnaturefarm.in/static/media/omkar-nature.87735681decd4a0e08d7.jpeg" />       
+      </MetaTags>
     <div className="homeScroll1">
   <div className="homeSection" id="home">
     <div className="homeText">

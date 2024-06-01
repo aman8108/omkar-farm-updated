@@ -59,5 +59,9 @@
   margin-left: calc(-.5* var(--bs-gutter-x));
 }
 
+.gallery-content{
+ display: none;
+}
+
 
 

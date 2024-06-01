@@ -13,7 +13,17 @@
 
 }
 
-
+.titleSection h2 {
+  font-size: 4.4rem;
+  font-weight: 500;
+   font-family: "Platypi", serif;
+  font-weight: 400 !important;
+  font-style: normal;
+  text-transform: capitalize;
+  color:white!important;
+  position: relative;
+  padding: 10px 0;
+}
 
 .activityCard {
     display: flex;

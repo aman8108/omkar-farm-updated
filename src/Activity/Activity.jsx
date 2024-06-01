@@ -4,6 +4,8 @@ import { Fade, Slide } from "react-awesome-reveal";
 function Activity() {
   return (
     <>
+
+
     
       <div className="activity mt-5">
   <div className="titleSection aos-init aos-animate" data-aos="fade-up">

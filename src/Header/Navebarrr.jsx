@@ -39,7 +39,7 @@ function Navebarrr() {
                 </Nav.Link>
                 <Nav.Link href="#home" className="nav-item">
                   <Link
-                    to="/about-us"
+                    to="/family-farmhouse-wada"
                     className="nav-link linkLine"
                     href="about.html"
                   >
@@ -57,17 +57,17 @@ function Navebarrr() {
                   </Link>
                 </Nav.Link>
                 <Nav.Link href="#link" className="nav-item">
-                  <Link to="/accomodation" className="nav-link linkLine">
+                  <Link to="/farmhouse-private-pool" className="nav-link linkLine">
                     Accommodation
                   </Link>
                 </Nav.Link>
                 <Nav.Link href="#link" className="nav-item">
-                  <Link to="/gallery" className="nav-link linkLine">
+                  <Link to="/private-farmhouse-wada" className="nav-link linkLine">
                     Gallery
                   </Link>
                 </Nav.Link>
                 <Nav.Link href="#link" className="nav-item">
-                  <Link to="/contect-us" className="nav-link">
+                  <Link to="/farmhouse-near-wada" className="nav-link">
                     Contact Us
                   </Link>
                 </Nav.Link>
