@@ -45,7 +45,7 @@ section {
   align-items: center;
   margin: 25px 0;
   flex-direction: column;
-  color: #008000;
+  color: #008000 !important;
 }
 
 .titleSection h1 {

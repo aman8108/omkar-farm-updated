@@ -11,7 +11,7 @@ function Activity() {
   <div className="titleSection aos-init aos-animate" data-aos="fade-up">
 
   <Fade  direction='up'>
-  <h2 className="text-center">Activities &amp; Entertainment</h2>
+  <h5 className="text-center">Activities &amp; Entertainment</h5>
          </Fade>
     
   </div>

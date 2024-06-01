@@ -8,7 +8,7 @@ function Attraction() {
     <>
       <div className="titleSection aos-init aos-animate" data-aos="fade-up">
         <Fade direction='right'>
-          <h2 className="text-center">Nearest Attraction</h2>
+          <h3 className="text-center">Nearest Attraction</h3>
         </Fade>
       </div>
       <section>

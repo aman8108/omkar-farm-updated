@@ -65,9 +65,9 @@ function Services() {
             }}
           >
             <div className="titleSection">
-              <h2 style={{ fontWeight: "bold", textAlign: "center" }}>
+              <h3 style={{ fontWeight: "bold", textAlign: "center" }}>
                 Rooms Services
-              </h2>
+              </h3>
             </div>
           </div>
         </div>

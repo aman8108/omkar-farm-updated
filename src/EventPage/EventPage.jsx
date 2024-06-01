@@ -64,7 +64,7 @@ function EventPage() {
             </div>
             <div className="col-lg-6 col-sm-12">
               <div className="titleSection">
-                <h2>Birthday</h2>
+                <h2 className="roomText">Birthday</h2>
                 <div className="birthdaydetail">
                   <p>
                     

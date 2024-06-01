@@ -61,6 +61,23 @@
   overflow: hidden;
 }
 
+.titleSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  flex-direction: column;
+  color: #008000 !important;
+}
+.titleSection  h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 0;
+  flex-direction: column;
+  color: #008000 !important;
+}
+
 
 
 
